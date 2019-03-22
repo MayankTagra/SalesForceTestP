@@ -1,0 +1,73 @@
+[debug (13/03/19, 3:18:16 PM)] Debug: setLogFile: E:\Sikuli\SikuliX-1.1.3-SetupLog.txt
+[debug (13/03/19, 3:18:16 PM)] RunSetup: ... starting with no args given
+[debug (13/03/19, 3:18:16 PM)] RunSetup: Setup: 1.1.3 2018-07-11_08:19 in folder:
+E:\Sikuli
+[debug (13/03/19, 3:18:17 PM)] RunSetup: RunningSystem: Windows 10.0
+[debug (13/03/19, 3:18:17 PM)] RunSetup: parent of jar/classes: E:\Sikuli
+[debug (13/03/19, 3:18:17 PM)] RunSetup: RunningJava: Java 10 (amd64) 10.0.2+13
+[debug (13/03/19, 3:18:17 PM)] init user preferences
+[debug (13/03/19, 3:18:29 PM)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+E:\Sikuli
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 2 ---
+sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar (Java API)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (13/03/19, 3:18:36 PM)] FileManager: Downloading sikulixlibswin-1.1.1.jar having 10577 KB
+[debug (13/03/19, 3:19:53 PM)] FileManager: downloaded 10577 KB to:
+C:\Users\mtagra\AppData\Roaming\Sikulix\SikulixDownloads\sikulixlibswin-1.1.1.jar
+[debug (13/03/19, 3:19:53 PM)] FileManager: download time: 76
+[debug (13/03/19, 3:19:57 PM)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (13/03/19, 3:19:57 PM)] FileManager: resetFolder:
+E:\Sikuli\SetupStuff\sikulixlibs\windows
+jar:file:/E:/Sikuli/sikulixlibswin.jar
+[debug (13/03/19, 3:19:58 PM)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixsetupAPI/1.1.3-SNAPSHOT/maven-metadata.xml,
+[debug (13/03/19, 3:20:01 PM)] RunSetup: getMavenJar: sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar
+[debug (13/03/19, 3:20:02 PM)] FileManager: Downloading sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar having 19093 KB
+[debug (13/03/19, 3:21:10 PM)] FileManager: downloaded 19093 KB to:
+C:\Users\mtagra\AppData\Roaming\Sikulix\SikulixDownloads_201807110819\sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar
+[debug (13/03/19, 3:21:10 PM)] FileManager: download time: 66
+[debug (13/03/19, 3:21:14 PM)] RunSetup: Copied from Downloads: sikulixapi
+[debug (13/03/19, 3:21:14 PM)] RunSetup: Download ended
+[debug (13/03/19, 3:21:14 PM)] RunSetup: Downloads for selected options:
+sikulixlibswin-1.1.1.jar sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar 
+[debug (13/03/19, 3:21:14 PM)] RunSetup: adding needed stuff to sikulixapi.jar
+[debug (13/03/19, 3:21:14 PM)] FileManager: buildJar: sikulixtemp.jar
+[debug (13/03/19, 3:21:14 PM)] FileManager: buildJar: adding: sikulixapi.jar
+[debug (13/03/19, 3:21:24 PM)] FileManager: buildJar: adding: sikulixlibswin.jar
+[debug (13/03/19, 3:21:28 PM)] FileManager: buildJar: adding sikulixcontent at sikulixlibswin
+[debug (13/03/19, 3:21:31 PM)] FileManager: buildJar: completed
+[debug (13/03/19, 3:21:31 PM)] RunSetup: renaming sikulixtemp.jar to target jar: sikulixapi.jar
+[debug (13/03/19, 3:21:33 PM)] RunSetup: Trying to run functional test: JAVA-API *** on Java8+ *** 
+[error (13/03/19, 3:21:38 PM)] RunTimeSETUP: *** Java 8+: setup API test - with ProcessRunner
+[error (13/03/19, 3:21:39 PM)] RunSetup: setup API test: did not work
+java.lang.ExceptionInInitializerError
+	at org.sikuli.basics.Debug.log(Debug.java:697)
+	at org.sikuli.basics.Debug.logx(Debug.java:675)
+	at org.sikuli.script.RunTime.log(RunTime.java:99)
+	at org.sikuli.script.RunTime.get(RunTime.java:184)
+	at org.sikuli.script.RunTime.get(RunTime.java:126)
+	at org.sikuli.script.RunTime.get(RunTime.java:316)
+	at org.sikuli.script.Sikulix.<clinit>(Sikulix.java:75)
+Caused by: java.lang.NumberFormatException: For input string: "."
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.sikuli.basics.Settings.<clinit>(Settings.java:123)
+	... 7 more
+Exception in thread "main" 
+error
+[error (13/03/19, 3:21:39 PM)] RunSetup: ProcessRunner: testSetup returned false
+[error (13/03/19, 3:21:39 PM)] RunSetup: ... terminated abnormally :-(
+[debug (13/03/19, 3:21:39 PM)] RunSetup: 
+popError: --------------------
+Something serious happened! Sikuli not useable!
+Check the error log at E:\Sikuli\SikuliX-1.1.3-SetupLog.txt
+--------------------
+[debug (13/03/19, 3:21:45 PM)] RunTimeSETUP: final cleanup
+[debug (13/03/19, 3:21:46 PM)] FileManager: deleteFileOrFolder:
+C:\Users\mtagra\AppData\Local\Temp\Sikulix_64476907
