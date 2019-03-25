@@ -206,9 +206,8 @@ public void ContactUsSelect3() throws InterruptedException
 	JavascriptExecutor js=(JavascriptExecutor)driver;
 	js.executeScript("document.querySelectorAll('ul[class=\"selectBox-dropdown-menu selectBox-options\"]')[3].scrollTop=900");
 	driver.findElement(By.xpath("//ul[@class='selectBox-dropdown-menu selectBox-options'][4]//li[45]")).click();
-	Thread.sleep(6000);
 	
-	//driver.findElement(By.id("SubscriptionAgreement")).click();
+
 	Thread.sleep(45000);
 	driver.close();
 	
