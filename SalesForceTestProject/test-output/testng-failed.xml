@@ -6,6 +6,7 @@
       <class name="HomePage.Header">
         <methods>
           <include name="ContactUsSelect3"/>
+          <include name="ContactUsSelect1"/>
         </methods>
       </class> <!-- HomePage.Header -->
     </classes>
