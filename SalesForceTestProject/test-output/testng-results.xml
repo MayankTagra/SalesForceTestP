@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1439102" started-at="2019-03-25T08:25:49Z" finished-at="2019-03-25T08:49:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1439102" started-at="2019-03-25T08:25:49Z" finished-at="2019-03-25T08:49:49Z">
+      <class name="HomePage.Footer">
+        <test-method status="PASS" signature="AboutSalesForce()[pri:0, instance:HomePage.Footer@75412c2f]" name="AboutSalesForce" duration-ms="208757" started-at="2019-03-25T14:14:28Z" finished-at="2019-03-25T14:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutSalesForce -->
+        <test-method status="PASS" signature="NewToSalesForce()[pri:0, instance:HomePage.Footer@75412c2f]" name="NewToSalesForce" duration-ms="24275" started-at="2019-03-25T14:17:57Z" finished-at="2019-03-25T14:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewToSalesForce -->
+        <test-method status="PASS" signature="PopularLinks()[pri:0, instance:HomePage.Footer@75412c2f]" name="PopularLinks" duration-ms="87509" started-at="2019-03-25T14:18:21Z" finished-at="2019-03-25T14:19:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PopularLinks -->
+      </class> <!-- HomePage.Footer -->
+      <class name="HomePage.Header">
+        <test-method status="PASS" signature="ContactUsSelect1()[pri:0, instance:HomePage.Header@5f150435]" name="ContactUsSelect1" duration-ms="127363" started-at="2019-03-25T13:55:49Z" finished-at="2019-03-25T13:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsSelect1 -->
+        <test-method status="PASS" signature="ContactUsSelect2()[pri:0, instance:HomePage.Header@5f150435]" name="ContactUsSelect2" duration-ms="28593" started-at="2019-03-25T13:57:57Z" finished-at="2019-03-25T13:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsSelect2 -->
+        <test-method status="FAIL" signature="ContactUsSelect3()[pri:0, instance:HomePage.Header@5f150435]" name="ContactUsSelect3" duration-ms="42802" started-at="2019-03-25T13:58:25Z" finished-at="2019-03-25T13:59:08Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"SubscriptionAgreement"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49718}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 3f91d7db866ac140e21c14d7cbc8d2a2
+*** Element info: {Using=id, value=SubscriptionAgreement}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"SubscriptionAgreement"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49718}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 3f91d7db866ac140e21c14d7cbc8d2a2
+*** Element info: {Using=id, value=SubscriptionAgreement}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at HomePage.Header.ContactUsSelect3(Header.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsSelect3 -->
+        <test-method status="PASS" signature="Globe()[pri:0, instance:HomePage.Header@5f150435]" name="Globe" duration-ms="516092" started-at="2019-03-25T13:59:08Z" finished-at="2019-03-25T14:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Globe -->
+        <test-method status="PASS" signature="InputSearch()[pri:0, instance:HomePage.Header@5f150435]" name="InputSearch" duration-ms="37140" started-at="2019-03-25T14:07:44Z" finished-at="2019-03-25T14:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputSearch -->
+        <test-method status="PASS" signature="InputTypeAndErase()[pri:0, instance:HomePage.Header@5f150435]" name="InputTypeAndErase" duration-ms="25592" started-at="2019-03-25T14:08:21Z" finished-at="2019-03-25T14:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputTypeAndErase -->
+        <test-method status="PASS" signature="LoginClick()[pri:0, instance:HomePage.Header@5f150435]" name="LoginClick" duration-ms="48947" started-at="2019-03-25T14:08:47Z" finished-at="2019-03-25T14:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginClick -->
+        <test-method status="PASS" signature="NavBarHover()[pri:0, instance:HomePage.Header@5f150435]" name="NavBarHover" duration-ms="291972" started-at="2019-03-25T14:09:36Z" finished-at="2019-03-25T14:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavBarHover -->
+      </class> <!-- HomePage.Header -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
