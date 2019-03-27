@@ -6,6 +6,9 @@
          <class name="HomePage.Header"/>
         <class name="HomePage.Footer"/>
      <class name="HomePage.MidContent"></class> 
+     <class name="Products.Products"></class>
+     <class name="Solutions.Solutions"></class>
+     <class name="TryForFreeWithExcel.TFFFormPage"></class>
       
     </classes>
   </test> <!-- Test -->

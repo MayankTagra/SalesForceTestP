@@ -19,5 +19,11 @@
 	<classpathentry kind="lib" path="E:/TestNg/com.beust.jcommander_1.72.0.jar"/>
 	<classpathentry kind="lib" path="E:/TestNg/org.testng.eclipse.maven_6.14.3.201902250526.jar"/>
 	<classpathentry kind="lib" path="E:/TestNg/org.yaml.snakeyaml_1.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mtagra/Downloads/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mtagra/Downloads/ooxml-schemas-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mtagra/Downloads/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mtagra/Downloads/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mtagra/Downloads/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mtagra/Downloads/xmlbeans-2.5.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
