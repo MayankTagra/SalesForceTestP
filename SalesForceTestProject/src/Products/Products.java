@@ -48,7 +48,7 @@ public class Products extends BaseClass{
 		Thread.sleep(3400);
 		driver.navigate().back();
 		Thread.sleep(3400);
-		
+		System.out.println("Inside Products");
 		driver.findElement(By.xpath("//div[@class='cardComponent parbase section']//div[@data-href='/in/products/analytics-cloud/overview/?d=70130000000lzYiAAI']"))
 		.click();
 		Thread.sleep(3400);

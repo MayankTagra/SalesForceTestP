@@ -49,6 +49,8 @@ public class Solutions extends BaseClass {
 			driver.findElement(By.xpath("//a[@data-id='consumer-goods']//span[@class='industry-card__circle']")).click();
 			Thread.sleep(3400);
 			driver.findElement(By.xpath("//a[@data-id='government']//span[@class='industry-card__circle']")).click();
+			System.out.println("Inside Solutions");
+			
 			Thread.sleep(3400);
 			driver.findElement(By.xpath("//a[@data-id='healthcare']//span[@class='industry-card__circle']")).click();
 			Thread.sleep(3400);
