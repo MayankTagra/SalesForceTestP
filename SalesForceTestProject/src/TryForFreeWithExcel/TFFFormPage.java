@@ -19,9 +19,11 @@ public class TFFFormPage extends BaseClass {
 		GetExcelData ed=new GetExcelData();
 		ArrayList<String> al=ed.Getdata("Others");
 		WebDriver driver=Login();
+		driver.get(url());
+		
 		
 		ArrayList<String> winal=new ArrayList();
-		driver.get("https://www.salesforce.com/in/?ir=1#");
+
 		
 		Thread.sleep(3400);
 		driver.findElement(By.xpath("//div[@class='free-trial-container']//a")).click();
