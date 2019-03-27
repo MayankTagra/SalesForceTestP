@@ -48,20 +48,24 @@ public class TFFFormPage extends BaseClass {
 		
 		//driver.findElement(By.xpath("//select[@id='CompanyCountry']/following-sibling::a ")).click();
 		driver.findElement(By.xpath("//ul[@class='selectBox-dropdown-menu selectBox-options']//a[@rel='250']")).click();
-		Thread.sleep(34000);
-		driver.findElement(By.xpath("//select[@id='CompanyCountry']/following-sibling::a ")).click();
+		Thread.sleep(3400);
+		driver.findElement(By.xpath("//select[@id='CompanyCountry']/following-sibling::a")).click();
 		driver.findElement(By.xpath("//a[@rel='AD']")).click();
 		Thread.sleep(3400);
 		
 		driver.findElement(By.id("SubscriptionAgreement")).click();
 		
-		
-		
 
-		
-		
 		Thread.sleep(3400);
 		driver.close();
+		
+		driver.switchTo().window(winal.get(0));
+		driver.close();
+		
+		
+		
+	
+		
 		
 		
 		
