@@ -15,8 +15,8 @@ public class TFFFormPage extends GetExcelData {
 	@Test()
 	public void TestExcel() throws IOException, InterruptedException
 	{
-		GetExcelData ed=new GetExcelData();
-		ArrayList<String> al=ed.Getdata("Others");
+		
+		ArrayList<String> al=Getdata("Others");
 		System.setProperty("webdriver.chrome.driver","c:\\chromeDriver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
