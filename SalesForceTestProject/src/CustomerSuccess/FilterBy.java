@@ -147,5 +147,45 @@ public class FilterBy extends BaseClass {
 			
 			
 		}
+		@Test()
+		public void ShowMore() throws InterruptedException
+		{
+			WebDriver driver=Login();
+			driver.get("https://www.salesforce.com/in/customer-success-stories/");
+			JavascriptExecutor js=(JavascriptExecutor)driver;
+			js.executeScript("window.scrollBy(0,4500)");
+			Thread.sleep(10000);
+			
+			//driver.findElement(By.xpath("//a[@href='/in/customer-success-stories/#_filter,3']")).click();
+			driver.findElement(By.xpath("//div[@class='filters-view-more col-xs-12']//a[1]")).click();
+			Thread.sleep(10000);
+			
+			driver.close();
+		}
+		@Test()
+		public void SeeTheStory() throws InterruptedException
+		{
+			WebDriver driver=Login();
+			driver.get("https://www.salesforce.com/in/customer-success-stories/");
+			JavascriptExecutor js=(JavascriptExecutor)driver;
+			js.executeScript("window.scrollBy(0,200)");
+			driver.findElement(By.xpath("//div[@class='btn-container ']//a[@href='/in/customer-success-stories/inmobi/']")).click();
+			Thread.sleep(6000);
+			driver.navigate().back();
+			Thread.sleep(6000);
+			driver.findElement(By.xpath("//div[@class='btn-container ']//a[@href='/in/customer-success-stories/y-axis/']")).click();
+			Thread.sleep(6000);
+			driver.navigate().back();
+			Thread.sleep(6000);
+			driver.findElement(By.xpath("//div[@class='btn-container ']//a[@href='/in/customer-success-stories/urban-ladder/']")).click();
+			Thread.sleep(6000);
+			driver.navigate().back();
+			Thread.sleep(6000);
+
+			driver.close();
+			
+
+			
+		}
 		
 }
