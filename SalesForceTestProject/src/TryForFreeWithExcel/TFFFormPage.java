@@ -7,19 +7,20 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
 
-
-public class TFFFormPage extends BaseClass {
+public class TFFFormPage extends GetExcelData {
 	@Test()
 	public void TestExcel() throws IOException, InterruptedException
 	{
 		GetExcelData ed=new GetExcelData();
 		ArrayList<String> al=ed.Getdata("Others");
-		WebDriver driver=Login();
-		driver.get(url());
+		System.setProperty("webdriver.chrome.driver","c:\\chromeDriver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get("https://www.salesforce.com/in/");;
 		
 		
 		ArrayList<String> winal=new ArrayList();
@@ -72,5 +73,8 @@ public class TFFFormPage extends BaseClass {
 		
 		
 	}
+
+
+	
 
 }
