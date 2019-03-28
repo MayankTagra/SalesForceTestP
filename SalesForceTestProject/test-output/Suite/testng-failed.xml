@@ -15,6 +15,7 @@
       </class> <!-- TryForFreeWithExcel.TFFFormPage -->
       <class name="HomePage.Header">
         <methods>
+          <include name="Globe"/>
           <include name="ContactUsSelect1"/>
         </methods>
       </class> <!-- HomePage.Header -->
