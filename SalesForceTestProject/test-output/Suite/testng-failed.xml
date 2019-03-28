@@ -3,11 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
+      <class name="HomePage.MidContent">
+        <methods>
+          <include name="SalesForceCustomerSuccess"/>
+        </methods>
+      </class> <!-- HomePage.MidContent -->
       <class name="TryForFreeWithExcel.TFFFormPage">
         <methods>
           <include name="TestExcel"/>
         </methods>
       </class> <!-- TryForFreeWithExcel.TFFFormPage -->
+      <class name="HomePage.Header">
+        <methods>
+          <include name="ContactUsSelect1"/>
+        </methods>
+      </class> <!-- HomePage.Header -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
