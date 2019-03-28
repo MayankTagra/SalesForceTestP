@@ -6,6 +6,8 @@
       <class name="TryForFreeWithExcel.TFFFormPage"/>
       <class name="Solutions.Solutions"/>
       <class name="HomePage.Header"/>
+      <class name="CustomerSuccess.FilterBy"/>
+      <class name="CustomerSuccess.SortBy"/>
       <class name="Products.Products"/>
       <class name="HomePage.MidContent"/>
       <class name="HomePage.Footer"/>
