@@ -57,6 +57,7 @@ public class TFFFormPage extends GetExcelData {
 		Thread.sleep(3400);
 		
 		driver.findElement(By.id("SubscriptionAgreement")).click();
+		System.out.println("Excel Program finally Executed");
 		
 
 		Thread.sleep(3400);
