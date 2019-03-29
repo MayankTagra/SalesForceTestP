@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\mtagra\git\repository4\SalesForceTestProject\testng.xml</span>
+                    <span>C:\Users\mtagra\git\repository4\SalesForceTestProject\lib\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">23 methods, 3 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Header" hash-for-method="ContactUsSelect1">ContactUsSelect1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.MidContent" hash-for-method="SalesForceCustomerSuccess">SalesForceCustomerSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CustomerSuccess.FilterBy" hash-for-method="Topics">Topics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +125,102 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TryForFreeWithExcel.TFFFormPage" hash-for-method="TestExcel">TestExcel</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Footer" hash-for-method="AboutSalesForce">AboutSalesForce</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CustomerSuccess.FilterBy" hash-for-method="BusinessSize">BusinessSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CustomerSuccess.FilterBy" hash-for-method="BusinessType">BusinessType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CustomerSuccess.FilterBy" hash-for-method="ClearAll">ClearAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Header" hash-for-method="ContactUsSelect2">ContactUsSelect2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Header" hash-for-method="ContactUsSelect3">ContactUsSelect3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CustomerSuccess.SortBy" hash-for-method="FilterCustomer">FilterCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Header" hash-for-method="Globe">Globe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Products.Products" hash-for-method="HoverTabs">HoverTabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CustomerSuccess.FilterBy" hash-for-method="Industry">Industry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Header" hash-for-method="InputSearch">InputSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Header" hash-for-method="InputTypeAndErase">InputTypeAndErase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Header" hash-for-method="LoginClick">LoginClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Header" hash-for-method="NavBarHover">NavBarHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Footer" hash-for-method="NewToSalesForce">NewToSalesForce</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomePage.Footer" hash-for-method="PopularLinks">PopularLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CustomerSuccess.FilterBy" hash-for-method="Products">Products</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Solutions.Solutions" hash-for-method="RadioOptions">RadioOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CustomerSuccess.FilterBy" hash-for-method="SeeTheStory">SeeTheStory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CustomerSuccess.FilterBy" hash-for-method="ShowMore">ShowMore</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -116,17 +235,308 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TryForFreeWithExcel.TFFFormPage</span>
+              <img src="failed.png"/>
+              <span class="class-name">CustomerSuccess.FilterBy</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TestExcel">
-                  </a> <!-- TestExcel -->
-                  <span class="method-name">TestExcel</span>
+                  <a name="Topics">
+                  </a> <!-- Topics -->
+                  <span class="method-name">Topics</span>
+                  <div class="stack-trace">org.openqa.selenium.JavascriptException: javascript error: windows is not defined
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;INW-169&apos;, ip: &apos;192.168.14.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56293}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 70f499ba5c3869ef4f20987d5cbe510b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at CustomerSuccess.FilterBy.Topics(FilterBy.java:19)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">HomePage.MidContent</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SalesForceCustomerSuccess">
+                  </a> <!-- SalesForceCustomerSuccess -->
+                  <span class="method-name">SalesForceCustomerSuccess</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;    columns-wrapper    margin-60-bottom-lg margin-40-bottom-sm column-container-component bg-default &apos;] //div[@class=&apos;cardComponent parbase section&apos;]//div[@data-href=&apos;/in/products/platform/overview/?d=70130000000YsT5&apos;]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;INW-169&apos;, ip: &apos;192.168.14.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57238}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 423d7cdbc8821219715e9ef155c7f038
+*** Element info: {Using=xpath, value=//div[@class=&apos;    columns-wrapper    margin-60-bottom-lg margin-40-bottom-sm column-container-component bg-default &apos;] //div[@class=&apos;cardComponent parbase section&apos;]//div[@data-href=&apos;/in/products/platform/overview/?d=70130000000YsT5&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at HomePage.MidContent.SalesForceCustomerSuccess(MidContent.java:20)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">HomePage.Header</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactUsSelect1">
+                  </a> <!-- ContactUsSelect1 -->
+                  <span class="method-name">ContactUsSelect1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;waitingCancelChat uiButton--inverse uiButton embeddedServiceSidebarButton&apos;]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;INW-169&apos;, ip: &apos;192.168.14.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52085}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 568249623921c57b39aab75841bd84b8
+*** Element info: {Using=xpath, value=//button[@class=&apos;waitingCancelChat uiButton--inverse uiButton embeddedServiceSidebarButton&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at HomePage.Header.ContactUsSelect1(Header.java:149)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CustomerSuccess.SortBy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FilterCustomer">
+                  </a> <!-- FilterCustomer -->
+                  <span class="method-name">FilterCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CustomerSuccess.FilterBy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BusinessSize">
+                  </a> <!-- BusinessSize -->
+                  <span class="method-name">BusinessSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BusinessType">
+                  </a> <!-- BusinessType -->
+                  <span class="method-name">BusinessType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClearAll">
+                  </a> <!-- ClearAll -->
+                  <span class="method-name">ClearAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Industry">
+                  </a> <!-- Industry -->
+                  <span class="method-name">Industry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Products">
+                  </a> <!-- Products -->
+                  <span class="method-name">Products</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SeeTheStory">
+                  </a> <!-- SeeTheStory -->
+                  <span class="method-name">SeeTheStory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShowMore">
+                  </a> <!-- ShowMore -->
+                  <span class="method-name">ShowMore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Solutions.Solutions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RadioOptions">
+                  </a> <!-- RadioOptions -->
+                  <span class="method-name">RadioOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePage.Footer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AboutSalesForce">
+                  </a> <!-- AboutSalesForce -->
+                  <span class="method-name">AboutSalesForce</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewToSalesForce">
+                  </a> <!-- NewToSalesForce -->
+                  <span class="method-name">NewToSalesForce</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PopularLinks">
+                  </a> <!-- PopularLinks -->
+                  <span class="method-name">PopularLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Products.Products</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HoverTabs">
+                  </a> <!-- HoverTabs -->
+                  <span class="method-name">HoverTabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePage.Header</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactUsSelect2">
+                  </a> <!-- ContactUsSelect2 -->
+                  <span class="method-name">ContactUsSelect2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactUsSelect3">
+                  </a> <!-- ContactUsSelect3 -->
+                  <span class="method-name">ContactUsSelect3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Globe">
+                  </a> <!-- Globe -->
+                  <span class="method-name">Globe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputSearch">
+                  </a> <!-- InputSearch -->
+                  <span class="method-name">InputSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputTypeAndErase">
+                  </a> <!-- InputTypeAndErase -->
+                  <span class="method-name">InputTypeAndErase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginClick">
+                  </a> <!-- LoginClick -->
+                  <span class="method-name">LoginClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavBarHover">
+                  </a> <!-- NavBarHover -->
+                  <span class="method-name">NavBarHover</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +544,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\mtagra\git\repository4\SalesForceTestProject\testng.xml</span>
+            <span class="header-content">C:\Users\mtagra\git\repository4\SalesForceTestProject\lib\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,6 +554,13 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TryForFreeWithExcel.TFFFormPage&quot;/&gt;
+      &lt;class name=&quot;Solutions.Solutions&quot;/&gt;
+      &lt;class name=&quot;HomePage.Header&quot;/&gt;
+      &lt;class name=&quot;CustomerSuccess.FilterBy&quot;/&gt;
+      &lt;class name=&quot;CustomerSuccess.SortBy&quot;/&gt;
+      &lt;class name=&quot;Products.Products&quot;/&gt;
+      &lt;class name=&quot;HomePage.MidContent&quot;/&gt;
+      &lt;class name=&quot;HomePage.Footer&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -157,7 +574,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,16 +600,104 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(23);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TestExcel')
-data.setCell(0, 2, 'TryForFreeWithExcel.TFFFormPage')
-data.setCell(0, 3, 49086);
+data.setCell(0, 1, 'Globe')
+data.setCell(0, 2, 'HomePage.Header')
+data.setCell(0, 3, 473811);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AboutSalesForce')
+data.setCell(1, 2, 'HomePage.Footer')
+data.setCell(1, 3, 208541);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'HoverTabs')
+data.setCell(2, 2, 'Products.Products')
+data.setCell(2, 3, 184093);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'NavBarHover')
+data.setCell(3, 2, 'HomePage.Header')
+data.setCell(3, 3, 160183);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClearAll')
+data.setCell(4, 2, 'CustomerSuccess.FilterBy')
+data.setCell(4, 3, 134817);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ContactUsSelect1')
+data.setCell(5, 2, 'HomePage.Header')
+data.setCell(5, 3, 119420);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'RadioOptions')
+data.setCell(6, 2, 'Solutions.Solutions')
+data.setCell(6, 3, 112411);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'PopularLinks')
+data.setCell(7, 2, 'HomePage.Footer')
+data.setCell(7, 3, 103913);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'SeeTheStory')
+data.setCell(8, 2, 'CustomerSuccess.FilterBy')
+data.setCell(8, 3, 103402);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FilterCustomer')
+data.setCell(9, 2, 'CustomerSuccess.SortBy')
+data.setCell(9, 3, 83378);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ContactUsSelect3')
+data.setCell(10, 2, 'HomePage.Header')
+data.setCell(10, 3, 81726);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Products')
+data.setCell(11, 2, 'CustomerSuccess.FilterBy')
+data.setCell(11, 3, 75804);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'LoginClick')
+data.setCell(12, 2, 'HomePage.Header')
+data.setCell(12, 3, 52447);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Industry')
+data.setCell(13, 2, 'CustomerSuccess.FilterBy')
+data.setCell(13, 3, 41605);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'BusinessSize')
+data.setCell(14, 2, 'CustomerSuccess.FilterBy')
+data.setCell(14, 3, 41226);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ShowMore')
+data.setCell(15, 2, 'CustomerSuccess.FilterBy')
+data.setCell(15, 3, 41027);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'BusinessType')
+data.setCell(16, 2, 'CustomerSuccess.FilterBy')
+data.setCell(16, 3, 38261);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'InputSearch')
+data.setCell(17, 2, 'HomePage.Header')
+data.setCell(17, 3, 36185);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'NewToSalesForce')
+data.setCell(18, 2, 'HomePage.Footer')
+data.setCell(18, 3, 29318);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ContactUsSelect2')
+data.setCell(19, 2, 'HomePage.Header')
+data.setCell(19, 3, 24482);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'InputTypeAndErase')
+data.setCell(20, 2, 'HomePage.Header')
+data.setCell(20, 3, 23016);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'SalesForceCustomerSuccess')
+data.setCell(21, 2, 'HomePage.MidContent')
+data.setCell(21, 3, 18398);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Topics')
+data.setCell(22, 2, 'CustomerSuccess.FilterBy')
+data.setCell(22, 3, 16759);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 36 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -218,10 +723,122 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TryForFreeWithExcel.TFFFormPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Solutions.Solutions</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">TestExcel</span>
+                <span class="method-name">RadioOptions</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePage.Header</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ContactUsSelect1</span>
+                <span class="method-start">112415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ContactUsSelect2</span>
+                <span class="method-start">231837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ContactUsSelect3</span>
+                <span class="method-start">256320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Globe</span>
+                <span class="method-start">338047 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InputSearch</span>
+                <span class="method-start">811858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InputTypeAndErase</span>
+                <span class="method-start">848043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginClick</span>
+                <span class="method-start">871060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NavBarHover</span>
+                <span class="method-start">923507 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CustomerSuccess.FilterBy</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BusinessSize</span>
+                <span class="method-start">1083692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BusinessType</span>
+                <span class="method-start">1124919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClearAll</span>
+                <span class="method-start">1163181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Industry</span>
+                <span class="method-start">1297999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Products</span>
+                <span class="method-start">1339605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SeeTheStory</span>
+                <span class="method-start">1415410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ShowMore</span>
+                <span class="method-start">1518813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Topics</span>
+                <span class="method-start">1559841 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CustomerSuccess.SortBy</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FilterCustomer</span>
+                <span class="method-start">1576601 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Products.Products</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HoverTabs</span>
+                <span class="method-start">1659980 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePage.MidContent</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SalesForceCustomerSuccess</span>
+                <span class="method-start">1844074 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePage.Footer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AboutSalesForce</span>
+                <span class="method-start">1862473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NewToSalesForce</span>
+                <span class="method-start">2071015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PopularLinks</span>
+                <span class="method-start">2100333 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
