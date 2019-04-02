@@ -230,7 +230,7 @@ public class LeftPannel extends BaseClass {
 			catch(Exception e)
 			{
 				System.out.println("Exception Occured");
-				
+					
 			}
 		}
 		Thread.sleep(4500);
