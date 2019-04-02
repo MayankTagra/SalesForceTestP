@@ -1,41 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="23" passed="21">
+<testng-results skipped="0" failed="5" total="34" passed="29">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2130280" started-at="2019-03-29T09:01:59Z" finished-at="2019-03-29T09:37:30Z">
+  <suite name="Suite" duration-ms="3361410" started-at="2019-04-02T12:50:07Z" finished-at="2019-04-02T13:46:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2130280" started-at="2019-03-29T09:01:59Z" finished-at="2019-03-29T09:37:30Z">
+    <test name="Test" duration-ms="3361410" started-at="2019-04-02T12:50:07Z" finished-at="2019-04-02T13:46:08Z">
+      <class name="Events.EventManagement">
+        <test-method status="PASS" signature="SelectEvent()[pri:0, instance:Events.EventManagement@3ecf72fd]" name="SelectEvent" duration-ms="66898" started-at="2019-04-02T18:20:07Z" finished-at="2019-04-02T18:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEvent -->
+        <test-method status="PASS" signature="SelectEventCountry()[pri:0, instance:Events.EventManagement@3ecf72fd]" name="SelectEventCountry" duration-ms="33304" started-at="2019-04-02T18:21:14Z" finished-at="2019-04-02T18:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEventCountry -->
+        <test-method status="PASS" signature="ViewMore()[pri:0, instance:Events.EventManagement@3ecf72fd]" name="ViewMore" duration-ms="70799" started-at="2019-04-02T18:21:47Z" finished-at="2019-04-02T18:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewMore -->
+      </class> <!-- Events.EventManagement -->
       <class name="CustomerSuccess.FilterBy">
-        <test-method status="PASS" signature="BusinessSize()[pri:0, instance:CustomerSuccess.FilterBy@483bf400]" name="BusinessSize" duration-ms="41412" started-at="2019-03-29T14:50:10Z" finished-at="2019-03-29T14:50:51Z">
+        <test-method status="PASS" signature="BusinessSize()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="BusinessSize" duration-ms="41784" started-at="2019-04-02T18:59:12Z" finished-at="2019-04-02T18:59:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BusinessSize -->
-        <test-method status="PASS" signature="BusinessType()[pri:0, instance:CustomerSuccess.FilterBy@483bf400]" name="BusinessType" duration-ms="40409" started-at="2019-03-29T14:50:51Z" finished-at="2019-03-29T14:51:31Z">
+        <test-method status="PASS" signature="BusinessType()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="BusinessType" duration-ms="38078" started-at="2019-04-02T18:59:53Z" finished-at="2019-04-02T19:00:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BusinessType -->
-        <test-method status="PASS" signature="ClearAll()[pri:0, instance:CustomerSuccess.FilterBy@483bf400]" name="ClearAll" duration-ms="136429" started-at="2019-03-29T14:51:31Z" finished-at="2019-03-29T14:53:48Z">
+        <test-method status="PASS" signature="ClearAll()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="ClearAll" duration-ms="135557" started-at="2019-04-02T19:00:32Z" finished-at="2019-04-02T19:02:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearAll -->
-        <test-method status="PASS" signature="Industry()[pri:0, instance:CustomerSuccess.FilterBy@483bf400]" name="Industry" duration-ms="42894" started-at="2019-03-29T14:53:48Z" finished-at="2019-03-29T14:54:31Z">
+        <test-method status="PASS" signature="Industry()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="Industry" duration-ms="42932" started-at="2019-04-02T19:02:47Z" finished-at="2019-04-02T19:03:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Industry -->
-        <test-method status="PASS" signature="Products()[pri:0, instance:CustomerSuccess.FilterBy@483bf400]" name="Products" duration-ms="73890" started-at="2019-03-29T14:54:31Z" finished-at="2019-03-29T14:55:45Z">
+        <test-method status="PASS" signature="Products()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="Products" duration-ms="68957" started-at="2019-04-02T19:03:30Z" finished-at="2019-04-02T19:04:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Products -->
-        <test-method status="PASS" signature="SeeTheStory()[pri:0, instance:CustomerSuccess.FilterBy@483bf400]" name="SeeTheStory" duration-ms="81978" started-at="2019-03-29T14:55:45Z" finished-at="2019-03-29T14:57:07Z">
+        <test-method status="PASS" signature="SeeTheStory()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="SeeTheStory" duration-ms="81892" started-at="2019-04-02T19:04:39Z" finished-at="2019-04-02T19:06:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeeTheStory -->
-        <test-method status="PASS" signature="ShowMore()[pri:0, instance:CustomerSuccess.FilterBy@483bf400]" name="ShowMore" duration-ms="38343" started-at="2019-03-29T14:57:07Z" finished-at="2019-03-29T14:57:45Z">
+        <test-method status="PASS" signature="ShowMore()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="ShowMore" duration-ms="35302" started-at="2019-04-02T19:06:01Z" finished-at="2019-04-02T19:06:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShowMore -->
-        <test-method status="FAIL" signature="Topics()[pri:0, instance:CustomerSuccess.FilterBy@483bf400]" name="Topics" duration-ms="15376" started-at="2019-03-29T14:57:45Z" finished-at="2019-03-29T14:58:00Z">
+        <test-method status="FAIL" signature="Topics()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="Topics" duration-ms="15340" started-at="2019-04-02T19:06:36Z" finished-at="2019-04-02T19:06:52Z">
           <exception class="org.openqa.selenium.JavascriptException">
             <message>
               <![CDATA[javascript error: windows is not defined
@@ -45,8 +59,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53391}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: eb083e10842704cc1a330eda4c0ea630]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49195}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 10102ebd8f5926e41e24146cc7875af2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.JavascriptException: javascript error: windows is not defined
@@ -56,8 +70,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53391}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: eb083e10842704cc1a330eda4c0ea630
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49195}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 10102ebd8f5926e41e24146cc7875af2
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -103,21 +117,21 @@ Session ID: eb083e10842704cc1a330eda4c0ea630
         </test-method> <!-- Topics -->
       </class> <!-- CustomerSuccess.FilterBy -->
       <class name="HomePage.Footer">
-        <test-method status="PASS" signature="AboutSalesForce()[pri:0, instance:HomePage.Footer@25618e91]" name="AboutSalesForce" duration-ms="181858" started-at="2019-03-29T15:02:25Z" finished-at="2019-03-29T15:05:26Z">
+        <test-method status="PASS" signature="AboutSalesForce()[pri:0, instance:HomePage.Footer@2fc14f68]" name="AboutSalesForce" duration-ms="177798" started-at="2019-04-02T19:11:06Z" finished-at="2019-04-02T19:14:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutSalesForce -->
-        <test-method status="PASS" signature="NewToSalesForce()[pri:0, instance:HomePage.Footer@25618e91]" name="NewToSalesForce" duration-ms="29348" started-at="2019-03-29T15:05:26Z" finished-at="2019-03-29T15:05:56Z">
+        <test-method status="PASS" signature="NewToSalesForce()[pri:0, instance:HomePage.Footer@2fc14f68]" name="NewToSalesForce" duration-ms="29144" started-at="2019-04-02T19:14:03Z" finished-at="2019-04-02T19:14:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewToSalesForce -->
-        <test-method status="PASS" signature="PopularLinks()[pri:0, instance:HomePage.Footer@25618e91]" name="PopularLinks" duration-ms="93944" started-at="2019-03-29T15:05:56Z" finished-at="2019-03-29T15:07:30Z">
+        <test-method status="PASS" signature="PopularLinks()[pri:0, instance:HomePage.Footer@2fc14f68]" name="PopularLinks" duration-ms="95554" started-at="2019-04-02T19:14:33Z" finished-at="2019-04-02T19:16:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PopularLinks -->
       </class> <!-- HomePage.Footer -->
       <class name="HomePage.MidContent">
-        <test-method status="FAIL" signature="SalesForceCustomerSuccess()[pri:0, instance:HomePage.MidContent@326de728]" name="SalesForceCustomerSuccess" duration-ms="15110" started-at="2019-03-29T15:02:09Z" finished-at="2019-03-29T15:02:25Z">
+        <test-method status="FAIL" signature="SalesForceCustomerSuccess()[pri:0, instance:HomePage.MidContent@4b6995df]" name="SalesForceCustomerSuccess" duration-ms="18428" started-at="2019-04-02T19:10:47Z" finished-at="2019-04-02T19:11:06Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='    columns-wrapper    margin-60-bottom-lg margin-40-bottom-sm column-container-component bg-default '] //div[@class='cardComponent parbase section']//div[@data-href='/in/products/platform/overview/?d=70130000000YsT5']"}
@@ -128,8 +142,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54511}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 96e99423bd767d11ccd53ba0023d90c6
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50069}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: f7cb3df3cc42226e2fca2e6888be3e64
 *** Element info: {Using=xpath, value=//div[@class='    columns-wrapper    margin-60-bottom-lg margin-40-bottom-sm column-container-component bg-default '] //div[@class='cardComponent parbase section']//div[@data-href='/in/products/platform/overview/?d=70130000000YsT5']}]]>
             </message>
             <full-stacktrace>
@@ -141,8 +155,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54511}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 96e99423bd767d11ccd53ba0023d90c6
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50069}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: f7cb3df3cc42226e2fca2e6888be3e64
 *** Element info: {Using=xpath, value=//div[@class='    columns-wrapper    margin-60-bottom-lg margin-40-bottom-sm column-container-component bg-default '] //div[@class='cardComponent parbase section']//div[@data-href='/in/products/platform/overview/?d=70130000000YsT5']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -191,54 +205,293 @@ Session ID: 96e99423bd767d11ccd53ba0023d90c6
           </reporter-output>
         </test-method> <!-- SalesForceCustomerSuccess -->
       </class> <!-- HomePage.MidContent -->
-      <class name="Products.Products">
-        <test-method status="PASS" signature="HoverTabs()[pri:0, instance:Products.Products@77f03bb1]" name="HoverTabs" duration-ms="165202" started-at="2019-03-29T14:59:24Z" finished-at="2019-03-29T15:02:09Z">
+      <class name="SupportAndServices.InputSupport">
+        <test-method status="FAIL" signature="NavigateTopResults()[pri:0, instance:SupportAndServices.InputSupport@77f03bb1]" name="NavigateTopResults" duration-ms="185500" started-at="2019-04-02T18:22:58Z" finished-at="2019-04-02T18:26:03Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='coveo-pager-list']"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57896}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 31733f9d7a7766f1c973a71105813809
+*** Element info: {Using=xpath, value=//ul[@class='coveo-pager-list']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='coveo-pager-list']"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57896}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 31733f9d7a7766f1c973a71105813809
+*** Element info: {Using=xpath, value=//ul[@class='coveo-pager-list']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at SupportAndServices.InputSupport.NavigateTopResults(InputSupport.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HoverTabs -->
-      </class> <!-- Products.Products -->
+        </test-method> <!-- NavigateTopResults -->
+        <test-method status="PASS" signature="SearchInput()[pri:0, instance:SupportAndServices.InputSupport@77f03bb1]" name="SearchInput" duration-ms="73246" started-at="2019-04-02T18:26:03Z" finished-at="2019-04-02T18:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchInput -->
+        <test-method status="PASS" signature="VisitTopResults()[pri:0, instance:SupportAndServices.InputSupport@77f03bb1]" name="VisitTopResults" duration-ms="163097" started-at="2019-04-02T18:27:17Z" finished-at="2019-04-02T18:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisitTopResults -->
+      </class> <!-- SupportAndServices.InputSupport -->
       <class name="CustomerSuccess.SortBy">
-        <test-method status="PASS" signature="FilterCustomer()[pri:0, instance:CustomerSuccess.SortBy@21a06946]" name="FilterCustomer" duration-ms="83979" started-at="2019-03-29T14:58:00Z" finished-at="2019-03-29T14:59:24Z">
+        <test-method status="PASS" signature="FilterCustomer()[pri:0, instance:CustomerSuccess.SortBy@2cfb4a64]" name="FilterCustomer" duration-ms="80186" started-at="2019-04-02T19:06:52Z" finished-at="2019-04-02T19:08:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FilterCustomer -->
       </class> <!-- CustomerSuccess.SortBy -->
+      <class name="Products.Products">
+        <test-method status="PASS" signature="HoverTabs()[pri:0, instance:Products.Products@5474c6c]" name="HoverTabs" duration-ms="155455" started-at="2019-04-02T19:08:12Z" finished-at="2019-04-02T19:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoverTabs -->
+      </class> <!-- Products.Products -->
+      <class name="SupportAndServices.LeftPannel">
+        <test-method status="PASS" signature="ContentType()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="ContentType" duration-ms="182332" started-at="2019-04-02T18:32:10Z" finished-at="2019-04-02T18:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContentType -->
+        <test-method status="PASS" signature="Experience()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="Experience" duration-ms="95625" started-at="2019-04-02T18:35:12Z" finished-at="2019-04-02T18:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Experience -->
+        <test-method status="FAIL" signature="SelectAllLangugaes()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="SelectAllLangugaes" duration-ms="58852" started-at="2019-04-02T18:36:47Z" finished-at="2019-04-02T18:37:46Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60361}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: abe88d1ad521113492f1bc9721784a56]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60361}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: abe88d1ad521113492f1bc9721784a56
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at SupportAndServices.LeftPannel.SelectAllLangugaes(LeftPannel.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAllLangugaes -->
+        <test-method status="PASS" signature="SelectRandom()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="SelectRandom" duration-ms="37878" started-at="2019-04-02T18:37:46Z" finished-at="2019-04-02T18:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectRandom -->
+        <test-method status="PASS" signature="TopicsSelectAll()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="TopicsSelectAll" duration-ms="250369" started-at="2019-04-02T18:38:24Z" finished-at="2019-04-02T18:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TopicsSelectAll -->
+      </class> <!-- SupportAndServices.LeftPannel -->
       <class name="Solutions.Solutions">
-        <test-method status="PASS" signature="RadioOptions()[pri:0, instance:Solutions.Solutions@f5f2bb7]" name="RadioOptions" duration-ms="113147" started-at="2019-03-29T14:31:59Z" finished-at="2019-03-29T14:33:53Z">
+        <test-method status="PASS" signature="RadioOptions()[pri:0, instance:Solutions.Solutions@326de728]" name="RadioOptions" duration-ms="129915" started-at="2019-04-02T18:30:00Z" finished-at="2019-04-02T18:32:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RadioOptions -->
       </class> <!-- Solutions.Solutions -->
       <class name="HomePage.Header">
-        <test-method status="PASS" signature="ContactUsSelect1()[pri:0, instance:HomePage.Header@3ecf72fd]" name="ContactUsSelect1" duration-ms="131156" started-at="2019-03-29T14:33:53Z" finished-at="2019-03-29T14:36:04Z">
+        <test-method status="FAIL" signature="ContactUsSelect1()[pri:0, instance:HomePage.Header@7a92922]" name="ContactUsSelect1" duration-ms="125761" started-at="2019-04-02T18:42:35Z" finished-at="2019-04-02T18:44:40Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='waitingCancelChat uiButton--inverse uiButton embeddedServiceSidebarButton']"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60884}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 91c8bddf3c045236bfbdc179aa15d5aa
+*** Element info: {Using=xpath, value=//button[@class='waitingCancelChat uiButton--inverse uiButton embeddedServiceSidebarButton']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='waitingCancelChat uiButton--inverse uiButton embeddedServiceSidebarButton']"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'INW-169', ip: '192.168.14.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60884}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 91c8bddf3c045236bfbdc179aa15d5aa
+*** Element info: {Using=xpath, value=//button[@class='waitingCancelChat uiButton--inverse uiButton embeddedServiceSidebarButton']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at HomePage.Header.ContactUsSelect1(Header.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUsSelect1 -->
-        <test-method status="PASS" signature="ContactUsSelect2()[pri:0, instance:HomePage.Header@3ecf72fd]" name="ContactUsSelect2" duration-ms="21308" started-at="2019-03-29T14:36:04Z" finished-at="2019-03-29T14:36:25Z">
+        <test-method status="PASS" signature="ContactUsSelect2()[pri:0, instance:HomePage.Header@7a92922]" name="ContactUsSelect2" duration-ms="30351" started-at="2019-04-02T18:44:40Z" finished-at="2019-04-02T18:45:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUsSelect2 -->
-        <test-method status="PASS" signature="ContactUsSelect3()[pri:0, instance:HomePage.Header@3ecf72fd]" name="ContactUsSelect3" duration-ms="77948" started-at="2019-03-29T14:36:25Z" finished-at="2019-03-29T14:37:43Z">
+        <test-method status="PASS" signature="ContactUsSelect3()[pri:0, instance:HomePage.Header@7a92922]" name="ContactUsSelect3" duration-ms="81377" started-at="2019-04-02T18:45:11Z" finished-at="2019-04-02T18:46:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUsSelect3 -->
-        <test-method status="PASS" signature="Globe()[pri:0, instance:HomePage.Header@3ecf72fd]" name="Globe" duration-ms="478779" started-at="2019-03-29T14:37:43Z" finished-at="2019-03-29T14:45:42Z">
+        <test-method status="PASS" signature="Globe()[pri:0, instance:HomePage.Header@7a92922]" name="Globe" duration-ms="486348" started-at="2019-04-02T18:46:32Z" finished-at="2019-04-02T18:54:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Globe -->
-        <test-method status="PASS" signature="InputSearch()[pri:0, instance:HomePage.Header@3ecf72fd]" name="InputSearch" duration-ms="38715" started-at="2019-03-29T14:45:42Z" finished-at="2019-03-29T14:46:21Z">
+        <test-method status="PASS" signature="InputSearch()[pri:0, instance:HomePage.Header@7a92922]" name="InputSearch" duration-ms="45579" started-at="2019-04-02T18:54:38Z" finished-at="2019-04-02T18:55:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InputSearch -->
-        <test-method status="PASS" signature="InputTypeAndErase()[pri:0, instance:HomePage.Header@3ecf72fd]" name="InputTypeAndErase" duration-ms="24996" started-at="2019-03-29T14:46:21Z" finished-at="2019-03-29T14:46:46Z">
+        <test-method status="PASS" signature="InputTypeAndErase()[pri:0, instance:HomePage.Header@7a92922]" name="InputTypeAndErase" duration-ms="24598" started-at="2019-04-02T18:55:24Z" finished-at="2019-04-02T18:55:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InputTypeAndErase -->
-        <test-method status="PASS" signature="LoginClick()[pri:0, instance:HomePage.Header@3ecf72fd]" name="LoginClick" duration-ms="49393" started-at="2019-03-29T14:46:46Z" finished-at="2019-03-29T14:47:35Z">
+        <test-method status="PASS" signature="LoginClick()[pri:0, instance:HomePage.Header@7a92922]" name="LoginClick" duration-ms="47134" started-at="2019-04-02T18:55:49Z" finished-at="2019-04-02T18:56:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginClick -->
-        <test-method status="PASS" signature="NavBarHover()[pri:0, instance:HomePage.Header@3ecf72fd]" name="NavBarHover" duration-ms="154585" started-at="2019-03-29T14:47:35Z" finished-at="2019-03-29T14:50:10Z">
+        <test-method status="PASS" signature="NavBarHover()[pri:0, instance:HomePage.Header@7a92922]" name="NavBarHover" duration-ms="155947" started-at="2019-04-02T18:56:36Z" finished-at="2019-04-02T18:59:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavBarHover -->
