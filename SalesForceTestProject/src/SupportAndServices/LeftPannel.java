@@ -258,5 +258,17 @@ public class LeftPannel extends BaseClass {
 		
 		
 	}
+	@Test()
+	public void NavTabclass() throws InterruptedException
+	{
+		WebDriver driver=Login();
+		driver.get("https://help.salesforce.com/home");
+		Thread.sleep(3400);
+		int count=driver.findElement(By.xpath("//div[@id='nav_group']//ul[@class='ul-reset ul-nav1 ht-success-links']"))
+				.findElements(By.tagName("li")).size();
+		System.out.println(count);
+		Thread.sleep(4500);
+		driver.close();
+	}
 
 }
