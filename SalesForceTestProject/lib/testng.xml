@@ -4,7 +4,10 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="TryForFreeWithExcel.TFFFormPage"/>
+      <class name="Events.EventManagement"/>
+      <class name="SupportAndServices.InputSupport"/>
       <class name="Solutions.Solutions"/>
+      <class name="SupportAndServices.LeftPannel"/>
       <class name="HomePage.Header"/>
       <class name="CustomerSuccess.FilterBy"/>
       <class name="CustomerSuccess.SortBy"/>
