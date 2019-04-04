@@ -213,10 +213,13 @@ public class LeftPannel extends BaseClass {
 	
 	@Test()
 	public void SelectAllLangugaes() throws InterruptedException
-	{
-		WebDriver driver=Login();
-		driver.get("https://help.salesforce.com/search?sfContext#q=live%20agent&f:@sflanguage=%5Ben_US%5D&firstQueryMeta=%5Bobject%20Object%5D");
+	{			
+		//In this Segment first we select all languages and then we deselect all languages
 		
+		WebDriver driver=Login();
+		
+	driver.get("https://help.salesforce.com/search?sfContext#q=live%20agent&f:@sflanguage=%5Ben_US%5D&firstQueryMeta=%5Bobject%20Object%5D");
+		Actions builder=new Actions(driver);
 		Thread.sleep(3400);
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("window.scroll(0,800)");
@@ -251,7 +254,11 @@ public class LeftPannel extends BaseClass {
 		
 		driver.findElement(By.xpath("//li[@data-value='ru']//div[@class='coveo-facet-value-exclude']")).click();
 		
-		
+		for(int i=1;i<=count;i++)
+		{
+			builder.moveToElement(driver.findElement(By.xpath("//div[@id='LanguageFacet']//ul[@class='coveo-facet-values']//li["+i+"]//div[@class='coveo-facet-value-exclude']"))).click().build().perform();
+			Thread.sleep(2000);
+		}
 		Thread.sleep(4500);
 		driver.close();
 		

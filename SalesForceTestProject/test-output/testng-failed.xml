@@ -3,11 +3,6 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="SupportAndServices.LeftPannel">
-        <methods>
-          <include name="SelectAllLangugaes"/>
-        </methods>
-      </class> <!-- SupportAndServices.LeftPannel -->
       <class name="HomePage.MidContent">
         <methods>
           <include name="SalesForceCustomerSuccess"/>
@@ -23,11 +18,6 @@
           <include name="ContactUsSelect1"/>
         </methods>
       </class> <!-- HomePage.Header -->
-      <class name="SupportAndServices.InputSupport">
-        <methods>
-          <include name="NavigateTopResults"/>
-        </methods>
-      </class> <!-- SupportAndServices.InputSupport -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
