@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite thread-count="15" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
     <classes>
+      <class name="Products.Products">
+        <methods>
+          <include name="HoverTabs"/>
+        </methods>
+      </class> <!-- Products.Products -->
       <class name="HomePage.MidContent">
         <methods>
           <include name="SalesForceCustomerSuccess"/>
@@ -10,20 +15,17 @@
       </class> <!-- HomePage.MidContent -->
       <class name="CustomerSuccess.FilterBy">
         <methods>
-          <include name="ClearAll"/>
-          <include name="Products"/>
           <include name="Topics"/>
         </methods>
       </class> <!-- CustomerSuccess.FilterBy -->
-      <class name="HomePage.Footer">
+      <class name="HomePage.Header">
         <methods>
-          <include name="PopularLinks"/>
+          <include name="Globe"/>
         </methods>
-      </class> <!-- HomePage.Footer -->
+      </class> <!-- HomePage.Header -->
       <class name="SupportAndServices.InputSupport">
         <methods>
           <include name="NavigateTopResults"/>
-          <include name="VisitTopResults"/>
         </methods>
       </class> <!-- SupportAndServices.InputSupport -->
     </classes>
