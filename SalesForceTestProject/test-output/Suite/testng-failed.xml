@@ -10,14 +10,22 @@
       </class> <!-- HomePage.MidContent -->
       <class name="CustomerSuccess.FilterBy">
         <methods>
+          <include name="ClearAll"/>
+          <include name="Products"/>
           <include name="Topics"/>
         </methods>
       </class> <!-- CustomerSuccess.FilterBy -->
-      <class name="HomePage.Header">
+      <class name="HomePage.Footer">
         <methods>
-          <include name="ContactUsSelect1"/>
+          <include name="PopularLinks"/>
         </methods>
-      </class> <!-- HomePage.Header -->
+      </class> <!-- HomePage.Footer -->
+      <class name="SupportAndServices.InputSupport">
+        <methods>
+          <include name="NavigateTopResults"/>
+          <include name="VisitTopResults"/>
+        </methods>
+      </class> <!-- SupportAndServices.InputSupport -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
