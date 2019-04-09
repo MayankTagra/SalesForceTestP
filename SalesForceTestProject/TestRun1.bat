@@ -1,4 +1,4 @@
-set projectPath="c:\Users\mtagra\git\repository4\SalesForceTestProject";
+set projectPath=c:\Users\mtagra\git\repository4\SalesForceTestProject;
 cd\
 cd %projectPath%;
 set classPath=%projectPath%\bin;%projectPath%\lib\*;

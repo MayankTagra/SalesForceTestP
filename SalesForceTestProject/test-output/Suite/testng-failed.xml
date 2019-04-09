@@ -1,33 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="15" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
-  <test name="Test(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
-      <class name="Products.Products">
-        <methods>
-          <include name="HoverTabs"/>
-        </methods>
-      </class> <!-- Products.Products -->
       <class name="HomePage.MidContent">
         <methods>
           <include name="SalesForceCustomerSuccess"/>
         </methods>
       </class> <!-- HomePage.MidContent -->
-      <class name="CustomerSuccess.FilterBy">
-        <methods>
-          <include name="Topics"/>
-        </methods>
-      </class> <!-- CustomerSuccess.FilterBy -->
       <class name="HomePage.Header">
         <methods>
+          <include name="InputTypeAndErase"/>
+          <include name="InputSearch"/>
+          <include name="ContactUsSelect3"/>
+          <include name="ContactUsSelect2"/>
+          <include name="LoginClick"/>
           <include name="Globe"/>
+          <include name="ContactUsSelect1"/>
+          <include name="NavBarHover"/>
         </methods>
       </class> <!-- HomePage.Header -->
+      <class name="SupportAndServices.Ideas">
+        <methods>
+          <include name="SortDropdown"/>
+          <include name="StatusFilterDropdown"/>
+          <include name="SelectAllOptionsOnLeft"/>
+        </methods>
+      </class> <!-- SupportAndServices.Ideas -->
+      <class name="CustomerSuccess.SortBy">
+        <methods>
+          <include name="FilterCustomer"/>
+        </methods>
+      </class> <!-- CustomerSuccess.SortBy -->
+      <class name="Solutions.Solutions">
+        <methods>
+          <include name="RadioOptions"/>
+        </methods>
+      </class> <!-- Solutions.Solutions -->
+      <class name="SupportAndServices.Answers">
+        <methods>
+          <include name="SelectAllTopics"/>
+          <include name="ShowsolvedDropdown"/>
+        </methods>
+      </class> <!-- SupportAndServices.Answers -->
+      <class name="Products.Products">
+        <methods>
+          <include name="HoverTabs"/>
+        </methods>
+      </class> <!-- Products.Products -->
+      <class name="HomePage.Footer">
+        <methods>
+          <include name="PopularLinks"/>
+          <include name="AboutSalesForce"/>
+          <include name="NewToSalesForce"/>
+        </methods>
+      </class> <!-- HomePage.Footer -->
+      <class name="SupportAndServices.Events">
+        <methods>
+          <include name="EnterInfo"/>
+        </methods>
+      </class> <!-- SupportAndServices.Events -->
       <class name="SupportAndServices.InputSupport">
         <methods>
           <include name="NavigateTopResults"/>
+          <include name="Setup"/>
+          <include name="VisitTopResults"/>
+          <include name="SearchInput"/>
         </methods>
       </class> <!-- SupportAndServices.InputSupport -->
+      <class name="SupportAndServices.LeftPannel">
+        <methods>
+          <include name="SelectAllLangugaes"/>
+          <include name="NavTabclass"/>
+          <include name="ContentType"/>
+          <include name="Experience"/>
+          <include name="TopicsSelectAll"/>
+          <include name="SelectRandom"/>
+        </methods>
+      </class> <!-- SupportAndServices.LeftPannel -->
+      <class name="Events.EventManagement">
+        <methods>
+          <include name="ViewMore"/>
+          <include name="SelectEventCountry"/>
+          <include name="SelectEvent"/>
+        </methods>
+      </class> <!-- Events.EventManagement -->
+      <class name="CustomerSuccess.FilterBy">
+        <methods>
+          <include name="ShowMore"/>
+          <include name="ClearAll"/>
+          <include name="Industry"/>
+          <include name="BusinessSize"/>
+          <include name="Products"/>
+          <include name="SeeTheStory"/>
+          <include name="Topics"/>
+          <include name="BusinessType"/>
+        </methods>
+      </class> <!-- CustomerSuccess.FilterBy -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,454 +1,405 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="5" total="35" passed="30">
+<testng-results skipped="41" failed="0" total="41" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1390785" started-at="2019-04-05T13:05:52Z" finished-at="2019-04-05T13:29:03Z">
+  <suite name="Suite" duration-ms="69" started-at="2019-04-09T12:01:50Z" finished-at="2019-04-09T12:01:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1390785" started-at="2019-04-05T13:05:52Z" finished-at="2019-04-05T13:29:03Z">
+    <test name="Test" duration-ms="69" started-at="2019-04-09T12:01:50Z" finished-at="2019-04-09T12:01:50Z">
       <class name="Events.EventManagement">
-        <test-method status="PASS" signature="SelectEvent()[pri:0, instance:Events.EventManagement@3ecf72fd]" name="SelectEvent" duration-ms="132290" started-at="2019-04-05T18:35:52Z" finished-at="2019-04-05T18:38:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectEvent -->
-        <test-method status="PASS" signature="SelectEventCountry()[pri:0, instance:Events.EventManagement@3ecf72fd]" name="SelectEventCountry" duration-ms="46027" started-at="2019-04-05T18:38:04Z" finished-at="2019-04-05T18:38:50Z">
+        <test-method status="SKIP" signature="SelectEventCountry()[pri:0, instance:Events.EventManagement@63d4e2ba]" name="SelectEventCountry" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEventCountry -->
-        <test-method status="PASS" signature="ViewMore()[pri:0, instance:Events.EventManagement@3ecf72fd]" name="ViewMore" duration-ms="104018" started-at="2019-04-05T18:38:50Z" finished-at="2019-04-05T18:40:34Z">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Events.EventManagement@63d4e2ba]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Events.EventManagement@63d4e2ba]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="SelectEvent()[pri:0, instance:Events.EventManagement@63d4e2ba]" name="SelectEvent" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEvent -->
+        <test-method status="SKIP" signature="ViewMore()[pri:0, instance:Events.EventManagement@63d4e2ba]" name="ViewMore" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ViewMore -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Events.EventManagement@63d4e2ba]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- Events.EventManagement -->
       <class name="CustomerSuccess.FilterBy">
-        <test-method status="PASS" signature="BusinessSize()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="BusinessSize" duration-ms="65986" started-at="2019-04-05T18:38:38Z" finished-at="2019-04-05T18:39:44Z">
+        <test-method status="SKIP" signature="BusinessSize()[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="BusinessSize" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BusinessSize -->
-        <test-method status="PASS" signature="BusinessType()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="BusinessType" duration-ms="84608" started-at="2019-04-05T18:39:44Z" finished-at="2019-04-05T18:41:08Z">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="BusinessType()[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="BusinessType" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BusinessType -->
-        <test-method status="PASS" signature="ClearAll()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="ClearAll" duration-ms="205512" started-at="2019-04-05T18:41:08Z" finished-at="2019-04-05T18:44:34Z">
+        <test-method status="SKIP" signature="ClearAll()[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="ClearAll" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearAll -->
-        <test-method status="PASS" signature="Industry()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="Industry" duration-ms="167426" started-at="2019-04-05T18:44:34Z" finished-at="2019-04-05T18:47:21Z">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Industry -->
-        <test-method status="PASS" signature="Products()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="Products" duration-ms="151845" started-at="2019-04-05T18:47:21Z" finished-at="2019-04-05T18:49:53Z">
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="Products()[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="Products" duration-ms="1" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Products -->
-        <test-method status="PASS" signature="SeeTheStory()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="SeeTheStory" duration-ms="155256" started-at="2019-04-05T18:49:53Z" finished-at="2019-04-05T18:52:28Z">
+        <test-method status="SKIP" signature="Industry()[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="Industry" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Industry -->
+        <test-method status="SKIP" signature="SeeTheStory()[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="SeeTheStory" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeeTheStory -->
-        <test-method status="PASS" signature="ShowMore()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="ShowMore" duration-ms="90273" started-at="2019-04-05T18:52:28Z" finished-at="2019-04-05T18:53:59Z">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="ShowMore()[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="ShowMore" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShowMore -->
-        <test-method status="FAIL" signature="Topics()[pri:0, instance:CustomerSuccess.FilterBy@71f2a7d5]" name="Topics" duration-ms="49018" started-at="2019-04-05T18:53:59Z" finished-at="2019-04-05T18:54:48Z">
-          <exception class="org.openqa.selenium.JavascriptException">
-            <message>
-              <![CDATA[javascript error: windows is not defined
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INW-169', ip: '192.168.14.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54933}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: dbd9cd71d0d669df645f41786fcf50e8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: windows is not defined
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INW-169', ip: '192.168.14.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54933}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: dbd9cd71d0d669df645f41786fcf50e8
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
-	at CustomerSuccess.FilterBy.Topics(FilterBy.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.JavascriptException -->
+        <test-method status="SKIP" signature="Topics()[pri:0, instance:CustomerSuccess.FilterBy@445b84c0]" name="Topics" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Topics -->
       </class> <!-- CustomerSuccess.FilterBy -->
-      <class name="HomePage.Footer">
-        <test-method status="PASS" signature="AboutSalesForce()[pri:0, instance:HomePage.Footer@2fc14f68]" name="AboutSalesForce" duration-ms="442986" started-at="2019-04-05T18:44:57Z" finished-at="2019-04-05T18:52:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutSalesForce -->
-        <test-method status="PASS" signature="NewToSalesForce()[pri:0, instance:HomePage.Footer@2fc14f68]" name="NewToSalesForce" duration-ms="62341" started-at="2019-04-05T18:52:20Z" finished-at="2019-04-05T18:53:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NewToSalesForce -->
-        <test-method status="PASS" signature="PopularLinks()[pri:0, instance:HomePage.Footer@2fc14f68]" name="PopularLinks" duration-ms="220420" started-at="2019-04-05T18:53:23Z" finished-at="2019-04-05T18:57:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PopularLinks -->
-      </class> <!-- HomePage.Footer -->
       <class name="HomePage.MidContent">
-        <test-method status="FAIL" signature="SalesForceCustomerSuccess()[pri:0, instance:HomePage.MidContent@4b6995df]" name="SalesForceCustomerSuccess" duration-ms="40810" started-at="2019-04-05T18:44:16Z" finished-at="2019-04-05T18:44:57Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='    columns-wrapper    margin-60-bottom-lg margin-40-bottom-sm column-container-component bg-default '] //div[@class='cardComponent parbase section']//div[@data-href='/in/products/platform/overview/?d=70130000000YsT5']"}
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INW-169', ip: '192.168.14.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51286}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: e095278b4c3ef98ca844275c9379438a
-*** Element info: {Using=xpath, value=//div[@class='    columns-wrapper    margin-60-bottom-lg margin-40-bottom-sm column-container-component bg-default '] //div[@class='cardComponent parbase section']//div[@data-href='/in/products/platform/overview/?d=70130000000YsT5']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='    columns-wrapper    margin-60-bottom-lg margin-40-bottom-sm column-container-component bg-default '] //div[@class='cardComponent parbase section']//div[@data-href='/in/products/platform/overview/?d=70130000000YsT5']"}
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INW-169', ip: '192.168.14.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51286}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: e095278b4c3ef98ca844275c9379438a
-*** Element info: {Using=xpath, value=//div[@class='    columns-wrapper    margin-60-bottom-lg margin-40-bottom-sm column-container-component bg-default '] //div[@class='cardComponent parbase section']//div[@data-href='/in/products/platform/overview/?d=70130000000YsT5']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at HomePage.MidContent.SalesForceCustomerSuccess(MidContent.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="SKIP" signature="SalesForceCustomerSuccess()[pri:0, instance:HomePage.MidContent@47fd17e3]" name="SalesForceCustomerSuccess" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SalesForceCustomerSuccess -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.MidContent@47fd17e3]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- HomePage.MidContent -->
-      <class name="SupportAndServices.InputSupport">
-        <test-method status="FAIL" signature="NavigateTopResults()[pri:0, instance:SupportAndServices.InputSupport@77f03bb1]" name="NavigateTopResults" duration-ms="298698" started-at="2019-04-05T18:35:52Z" finished-at="2019-04-05T18:40:51Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='coveo-pager-list']"}
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INW-169', ip: '192.168.14.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64668}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: c2f5228d8515112779e3f891a562607d
-*** Element info: {Using=xpath, value=//ul[@class='coveo-pager-list']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='coveo-pager-list']"}
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INW-169', ip: '192.168.14.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64668}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: c2f5228d8515112779e3f891a562607d
-*** Element info: {Using=xpath, value=//ul[@class='coveo-pager-list']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at SupportAndServices.InputSupport.NavigateTopResults(InputSupport.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NavigateTopResults -->
-        <test-method status="PASS" signature="SearchInput()[pri:0, instance:SupportAndServices.InputSupport@77f03bb1]" name="SearchInput" duration-ms="88158" started-at="2019-04-05T18:40:51Z" finished-at="2019-04-05T18:42:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchInput -->
-        <test-method status="PASS" signature="VisitTopResults()[pri:0, instance:SupportAndServices.InputSupport@77f03bb1]" name="VisitTopResults" duration-ms="314954" started-at="2019-04-05T18:42:19Z" finished-at="2019-04-05T18:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VisitTopResults -->
-      </class> <!-- SupportAndServices.InputSupport -->
-      <class name="Products.Products">
-        <test-method status="FAIL" signature="HoverTabs()[pri:0, instance:Products.Products@5474c6c]" name="HoverTabs" duration-ms="112554" started-at="2019-04-05T18:42:24Z" finished-at="2019-04-05T18:44:16Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <div class="thumbnail-content thumbnail-linked" data-href="/in/products/heroku/overview/?d=7010M000001y80C">...</div> is not clickable at point (629, 258). Other element would receive the click: <span class="
-            header-text
-            
-            
-            ">...</span>
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INW-169', ip: '192.168.14.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50523}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 3bb935b22f0764a15f7be9bc6243a417]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <div class="thumbnail-content thumbnail-linked" data-href="/in/products/heroku/overview/?d=7010M000001y80C">...</div> is not clickable at point (629, 258). Other element would receive the click: <span class="
-            header-text
-            
-            
-            ">...</span>
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INW-169', ip: '192.168.14.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50523}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 3bb935b22f0764a15f7be9bc6243a417
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Products.Products.HoverTabs(Products.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HoverTabs -->
-      </class> <!-- Products.Products -->
-      <class name="CustomerSuccess.SortBy">
-        <test-method status="PASS" signature="FilterCustomer()[pri:0, instance:CustomerSuccess.SortBy@2cfb4a64]" name="FilterCustomer" duration-ms="109678" started-at="2019-04-05T18:40:34Z" finished-at="2019-04-05T18:42:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FilterCustomer -->
-      </class> <!-- CustomerSuccess.SortBy -->
       <class name="SupportAndServices.LeftPannel">
-        <test-method status="PASS" signature="ContentType()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="ContentType" duration-ms="211329" started-at="2019-04-05T18:35:52Z" finished-at="2019-04-05T18:39:23Z">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ContentType -->
-        <test-method status="PASS" signature="Experience()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="Experience" duration-ms="152747" started-at="2019-04-05T18:39:23Z" finished-at="2019-04-05T18:41:56Z">
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="Experience()[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="Experience" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Experience -->
-        <test-method status="PASS" signature="NavTabclass()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="NavTabclass" duration-ms="68326" started-at="2019-04-05T18:41:56Z" finished-at="2019-04-05T18:43:04Z">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="ContentType()[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="ContentType" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContentType -->
+        <test-method status="SKIP" signature="NavTabclass()[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="NavTabclass" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavTabclass -->
-        <test-method status="PASS" signature="SelectAllLangugaes()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="SelectAllLangugaes" duration-ms="426080" started-at="2019-04-05T18:43:04Z" finished-at="2019-04-05T18:50:10Z">
+        <test-method status="SKIP" signature="SelectAllLangugaes()[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="SelectAllLangugaes" duration-ms="1" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectAllLangugaes -->
-        <test-method status="PASS" signature="SelectRandom()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="SelectRandom" duration-ms="80964" started-at="2019-04-05T18:50:10Z" finished-at="2019-04-05T18:51:31Z">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="SelectRandom()[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="SelectRandom" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectRandom -->
-        <test-method status="PASS" signature="TopicsSelectAll()[pri:0, instance:SupportAndServices.LeftPannel@25618e91]" name="TopicsSelectAll" duration-ms="451221" started-at="2019-04-05T18:51:31Z" finished-at="2019-04-05T18:59:03Z">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="TopicsSelectAll()[pri:0, instance:SupportAndServices.LeftPannel@7bb11784]" name="TopicsSelectAll" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TopicsSelectAll -->
       </class> <!-- SupportAndServices.LeftPannel -->
       <class name="HomePage.Header">
-        <test-method status="PASS" signature="ContactUsSelect1()[pri:0, instance:HomePage.Header@7a92922]" name="ContactUsSelect1" duration-ms="180167" started-at="2019-04-05T18:35:52Z" finished-at="2019-04-05T18:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ContactUsSelect1 -->
-        <test-method status="PASS" signature="ContactUsSelect2()[pri:0, instance:HomePage.Header@7a92922]" name="ContactUsSelect2" duration-ms="53718" started-at="2019-04-05T18:38:52Z" finished-at="2019-04-05T18:39:46Z">
+        <test-method status="SKIP" signature="ContactUsSelect2()[pri:0, instance:HomePage.Header@33a10788]" name="ContactUsSelect2" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUsSelect2 -->
-        <test-method status="PASS" signature="ContactUsSelect3()[pri:0, instance:HomePage.Header@7a92922]" name="ContactUsSelect3" duration-ms="122228" started-at="2019-04-05T18:39:46Z" finished-at="2019-04-05T18:41:48Z">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Header@33a10788]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="ContactUsSelect1()[pri:0, instance:HomePage.Header@33a10788]" name="ContactUsSelect1" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsSelect1 -->
+        <test-method status="SKIP" signature="ContactUsSelect3()[pri:0, instance:HomePage.Header@33a10788]" name="ContactUsSelect3" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUsSelect3 -->
-        <test-method status="FAIL" signature="Globe()[pri:0, instance:HomePage.Header@7a92922]" name="Globe" duration-ms="327992" started-at="2019-04-05T18:41:48Z" finished-at="2019-04-05T18:47:16Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <li>...</li> is not clickable at point (0, 0). Other element would receive the click: <nav class="globalnavbar hidden-xs hidden-sm">...</nav>
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INW-169', ip: '192.168.14.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50341}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 5ca6ad6d4d22d82aaab5c149f45b2f30]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <li>...</li> is not clickable at point (0, 0). Other element would receive the click: <nav class="globalnavbar hidden-xs hidden-sm">...</nav>
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INW-169', ip: '192.168.14.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\mtagra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50341}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 5ca6ad6d4d22d82aaab5c149f45b2f30
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at HomePage.Header.Globe(Header.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Header@33a10788]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Header@33a10788]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="Globe()[pri:0, instance:HomePage.Header@33a10788]" name="Globe" duration-ms="1" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Globe -->
-        <test-method status="PASS" signature="InputSearch()[pri:0, instance:HomePage.Header@7a92922]" name="InputSearch" duration-ms="124873" started-at="2019-04-05T18:47:16Z" finished-at="2019-04-05T18:49:21Z">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Header@33a10788]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InputSearch -->
-        <test-method status="PASS" signature="InputTypeAndErase()[pri:0, instance:HomePage.Header@7a92922]" name="InputTypeAndErase" duration-ms="98132" started-at="2019-04-05T18:49:21Z" finished-at="2019-04-05T18:50:59Z">
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="InputTypeAndErase()[pri:0, instance:HomePage.Header@33a10788]" name="InputTypeAndErase" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InputTypeAndErase -->
-        <test-method status="PASS" signature="LoginClick()[pri:0, instance:HomePage.Header@7a92922]" name="LoginClick" duration-ms="100499" started-at="2019-04-05T18:50:59Z" finished-at="2019-04-05T18:52:39Z">
+        <test-method status="SKIP" signature="InputSearch()[pri:0, instance:HomePage.Header@33a10788]" name="InputSearch" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginClick -->
-        <test-method status="PASS" signature="NavBarHover()[pri:0, instance:HomePage.Header@7a92922]" name="NavBarHover" duration-ms="303309" started-at="2019-04-05T18:52:39Z" finished-at="2019-04-05T18:57:43Z">
+        </test-method> <!-- InputSearch -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Header@33a10788]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Header@33a10788]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Header@33a10788]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="NavBarHover()[pri:0, instance:HomePage.Header@33a10788]" name="NavBarHover" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavBarHover -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Header@33a10788]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LoginClick()[pri:0, instance:HomePage.Header@33a10788]" name="LoginClick" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginClick -->
       </class> <!-- HomePage.Header -->
+      <class name="SupportAndServices.Answers">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.Answers@7cdbc5d3]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="SelectAllTopics()[pri:0, instance:SupportAndServices.Answers@7cdbc5d3]" name="SelectAllTopics" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAllTopics -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.Answers@7cdbc5d3]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="ShowsolvedDropdown()[pri:0, instance:SupportAndServices.Answers@7cdbc5d3]" name="ShowsolvedDropdown" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShowsolvedDropdown -->
+      </class> <!-- SupportAndServices.Answers -->
+      <class name="SupportAndServices.Events">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.Events@61a52fbd]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="EnterInfo()[pri:0, instance:SupportAndServices.Events@61a52fbd]" name="EnterInfo" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterInfo -->
+      </class> <!-- SupportAndServices.Events -->
+      <class name="HomePage.Footer">
+        <test-method status="SKIP" signature="AboutSalesForce()[pri:0, instance:HomePage.Footer@3aa9e816]" name="AboutSalesForce" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutSalesForce -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Footer@3aa9e816]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Footer@3aa9e816]" name="getResult" is-config="true" duration-ms="15" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="NewToSalesForce()[pri:0, instance:HomePage.Footer@3aa9e816]" name="NewToSalesForce" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewToSalesForce -->
+        <test-method status="SKIP" signature="PopularLinks()[pri:0, instance:HomePage.Footer@3aa9e816]" name="PopularLinks" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PopularLinks -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.Footer@3aa9e816]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- HomePage.Footer -->
+      <class name="SupportAndServices.InputSupport">
+        <test-method status="FAIL" signature="Setup()[pri:0, instance:SupportAndServices.InputSupport@66048bfd]" name="Setup" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/aventstack/extentreports/reporter/ExtentHtmlReporter]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at HomePage.BaseTest.Setup(BaseTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:298)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="NavigateTopResults()[pri:0, instance:SupportAndServices.InputSupport@66048bfd]" name="NavigateTopResults" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateTopResults -->
+        <test-method status="SKIP" signature="SearchInput()[pri:0, instance:SupportAndServices.InputSupport@66048bfd]" name="SearchInput" duration-ms="1" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchInput -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.InputSupport@66048bfd]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.InputSupport@66048bfd]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.InputSupport@66048bfd]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="VisitTopResults()[pri:0, instance:SupportAndServices.InputSupport@66048bfd]" name="VisitTopResults" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisitTopResults -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:SupportAndServices.InputSupport@66048bfd]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SupportAndServices.InputSupport -->
+      <class name="SupportAndServices.Ideas">
+        <test-method status="SKIP" signature="SelectAllOptionsOnLeft()[pri:0, instance:SupportAndServices.Ideas@233c0b17]" name="SelectAllOptionsOnLeft" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAllOptionsOnLeft -->
+        <test-method status="SKIP" signature="SortDropdown()[pri:0, instance:SupportAndServices.Ideas@233c0b17]" name="SortDropdown" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortDropdown -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.Ideas@233c0b17]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.Ideas@233c0b17]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:SupportAndServices.Ideas@233c0b17]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="StatusFilterDropdown()[pri:0, instance:SupportAndServices.Ideas@233c0b17]" name="StatusFilterDropdown" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusFilterDropdown -->
+      </class> <!-- SupportAndServices.Ideas -->
+      <class name="CustomerSuccess.SortBy">
+        <test-method status="SKIP" signature="FilterCustomer()[pri:0, instance:CustomerSuccess.SortBy@7006c658]" name="FilterCustomer" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterCustomer -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:CustomerSuccess.SortBy@7006c658]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- CustomerSuccess.SortBy -->
+      <class name="Products.Products">
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Products.Products@34033bd0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="HoverTabs()[pri:0, instance:Products.Products@34033bd0]" name="HoverTabs" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoverTabs -->
+      </class> <!-- Products.Products -->
       <class name="Solutions.Solutions">
-        <test-method status="PASS" signature="RadioOptions()[pri:0, instance:Solutions.Solutions@326de728]" name="RadioOptions" duration-ms="165875" started-at="2019-04-05T18:35:52Z" finished-at="2019-04-05T18:38:38Z">
+        <test-method status="SKIP" signature="RadioOptions()[pri:0, instance:Solutions.Solutions@61443d8f]" name="RadioOptions" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RadioOptions -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Solutions.Solutions@61443d8f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-09T17:31:50Z" finished-at="2019-04-09T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- Solutions.Solutions -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
