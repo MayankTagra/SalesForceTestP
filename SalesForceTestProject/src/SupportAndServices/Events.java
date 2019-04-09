@@ -6,12 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
+import HomePage.BaseTest;
 
-public class Events extends BaseClass {
+public class Events extends BaseTest {
 	@Test()
 	public void EnterInfo() throws InterruptedException
-	{
+	{		
+		test=extent.createTest("Enter Info");
 		//In this First we will click on save the date and then we will further procced to filling up the form
 		WebDriver driver=Login();
 		driver.get("https://success.salesforce.com/events");

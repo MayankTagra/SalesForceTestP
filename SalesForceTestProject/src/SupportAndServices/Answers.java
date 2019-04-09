@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
+import HomePage.BaseTest;
 
-public class Answers extends BaseClass{
+public class Answers extends BaseTest{
 	@Test()
 	public void SelectAllTopics() throws InterruptedException
-	{
+	{	test=extent.createTest("Select All Topics");
 		WebDriver driver=Login();
 		driver.get("https://help.salesforce.com/search?sfContext#q=live%20agent&f:@sflanguage=%5Ben_US%5D&firstQueryMeta=%5Bobject%20Object%5D");
 		driver.findElement(By.xpath("//div[@id='nav1']//ul[@id='nav1_ul']")).findElements(By.tagName("li")).get(1).click();
@@ -42,7 +42,8 @@ public class Answers extends BaseClass{
 	
 	@Test()
 	public void ShowsolvedDropdown() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Show Solved dropdown");
 		WebDriver driver=Login();
 		driver.get("https://success.salesforce.com/answers?feedtype=RECENT&criteria=BESTANSWERS");
 		Thread.sleep(3400);

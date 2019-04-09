@@ -9,14 +9,13 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebElement;
 	
-public class Header extends BaseClass  {
+public class Header extends BaseTest  {
 @Test()
 public void NavBarHover() throws InterruptedException
-{
+{	
+	test=extent.createTest("Nav Bar Hover");
 	WebDriver driver=Login();
 	driver.get(url());
 	driver.manage().window().maximize();
@@ -62,7 +61,8 @@ public void NavBarHover() throws InterruptedException
 }
 @Test()
 public void InputSearch() throws InterruptedException
-{
+{	
+	test=extent.createTest("nput search");
 	WebDriver driver=Login();
 	driver.get(url());
 	Actions builder=new Actions(driver);
@@ -79,7 +79,8 @@ public void InputSearch() throws InterruptedException
 }
 @Test()
 public void InputTypeAndErase() throws InterruptedException
-{
+{	
+	test=extent.createTest("Input type and erase");
 	WebDriver driver=Login();
 	driver.get(url());
 	driver.findElement(By.xpath("//div[@class='utility-bar']//div[@class='magic-box-input']//input")).sendKeys("live");
@@ -91,7 +92,8 @@ public void InputTypeAndErase() throws InterruptedException
 }
 @Test()
 public void Globe() throws InterruptedException
-{
+{	
+	test=extent.createTest("Globe");
 	WebDriver driver=Login();
 	driver.get(url());
 	//driver.findElement(By.xpath)
@@ -116,47 +118,49 @@ public void Globe() throws InterruptedException
 
 @Test()
 public void ContactUsSelect1() throws InterruptedException
-{
-	WebDriver driver=Login();
-	driver.get(url());
-	Thread.sleep(10000);
-	
-	Actions builder=new Actions(driver);
-	builder.moveToElement(driver.findElement(By.xpath("//div[@class='utility-bar']//a[@href='#']"))).build().perform();
-	driver.findElement(By.xpath("//div[@class='liveagent-data']/following-sibling::a")).click();
-	Thread.sleep(30000);
-	
-	driver.findElement(By.id("FirstName")).sendKeys("Mayank");
-	driver.findElement(By.id("LastName")).sendKeys("Tagra");
-	driver.findElement(By.id("Email")).sendKeys("mayanktagra1@gmail.com");
-	driver.findElement(By.id("Phone")).sendKeys("9898989898");
-	driver.findElement(By.xpath("//div[@class='buttonWrapper embeddedServiceSidebarForm']//span")).click();
-	
-	Thread.sleep(60000);
-	//Actions builder=new Actions(driver);
-	try
-	{
-	builder.moveToElement(driver.findElement(By.xpath("//textarea[@class='chasitorText  textarea']"))).sendKeys("Hello")
-	.sendKeys(Keys.ENTER).build().perform();
-	Thread.sleep(5600);
-	builder.moveToElement(driver.findElement(By.xpath("//textarea[@class='chasitorText  textarea']"))).sendKeys("Want to know About SalesForce")
-	.sendKeys(Keys.ENTER).build().perform();
-	
-	}
-	catch(Exception e)
-	{
-		System.out.println("Chat Page Not Loaded");
-		driver.findElement(By.xpath("//button[@class='waitingCancelChat uiButton--inverse uiButton embeddedServiceSidebarButton']")).click();
-		driver.findElement(By.xpath("//div[@class='dialogButtonContainer']//button[1]")).click();
-	}
-	
-	
-	driver.close();
+	{	
+		test=extent.createTest("Contact Us Select1");
+		WebDriver driver=Login();
+		driver.get(url());
+		Thread.sleep(10000);
+		
+		Actions builder=new Actions(driver);
+		builder.moveToElement(driver.findElement(By.xpath("//div[@class='utility-bar']//a[@href='#']"))).build().perform();
+		driver.findElement(By.xpath("//div[@class='liveagent-data']/following-sibling::a")).click();
+		Thread.sleep(30000);
+		
+		driver.findElement(By.id("FirstName")).sendKeys("Mayank");
+		driver.findElement(By.id("LastName")).sendKeys("Tagra");
+		driver.findElement(By.id("Email")).sendKeys("mayanktagra1@gmail.com");
+		driver.findElement(By.id("Phone")).sendKeys("9898989898");
+		driver.findElement(By.xpath("//div[@class='buttonWrapper embeddedServiceSidebarForm']//span")).click();
+		
+		Thread.sleep(60000);
+		//Actions builder=new Actions(driver);
+		try
+		{
+		builder.moveToElement(driver.findElement(By.xpath("//textarea[@class='chasitorText  textarea']"))).sendKeys("Hello")
+		.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(5600);
+		builder.moveToElement(driver.findElement(By.xpath("//textarea[@class='chasitorText  textarea']"))).sendKeys("Want to know About SalesForce")
+		.sendKeys(Keys.ENTER).build().perform();
+		
+		}
+		catch(Exception e)
+		{
+			System.out.println("Chat Page Not Loaded");
+			driver.findElement(By.xpath("//button[@class='waitingCancelChat uiButton--inverse uiButton embeddedServiceSidebarButton']")).click();
+			driver.findElement(By.xpath("//div[@class='dialogButtonContainer']//button[1]")).click();
+		}
+		
+		
+		driver.close();
 }
 
 @Test()
 public void ContactUsSelect2() throws InterruptedException
-{
+{	
+	test=extent.createTest("Contact Us Select 2");
 	WebDriver driver=Login();
 	driver.get(url());
 	//Thread.sleep(2000);
@@ -168,7 +172,8 @@ public void ContactUsSelect2() throws InterruptedException
 }
 @Test()
 public void ContactUsSelect3() throws InterruptedException
-{
+{	
+	test=extent.createTest("Contact Us select 3");
 	WebDriver driver=Login();
 	driver.get(url());
 	Thread.sleep(100);
@@ -217,7 +222,8 @@ public void ContactUsSelect3() throws InterruptedException
 }
 @Test()
 public void LoginClick() throws InterruptedException
-{
+{	
+	test=extent.createTest("Login Click");
 	WebDriver driver=Login();
 	driver.get(url());
 	Actions builder=new Actions(driver);

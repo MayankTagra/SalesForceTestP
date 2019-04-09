@@ -3,12 +3,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
+import HomePage.BaseTest;
 
-public class Products extends BaseClass{
+public class Products extends BaseTest{
 	@Test()
 	public void HoverTabs() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Hover tabs");
 		WebDriver driver=Login();
 		driver.get("https://www.salesforce.com/in/products/");
 		driver.findElement(By.xpath("//a[@href='#sales-scroll-tab']")).click();

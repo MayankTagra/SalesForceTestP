@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="classes" thread-count="5">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TryForFreeWithExcel.TFFFormPage"/>
-      <class name="Events.EventManagement"/>
       <class name="SupportAndServices.InputSupport"/>
       <class name="Solutions.Solutions"/>
+      <class name="CustomerSuccess.FilterBy"/>
+      <class name="SupportAndServices.Events"/>
+      <class name="SupportAndServices.Ideas"/>
+      <class name="Events.EventManagement"/>
+      <class name="HomePage.BaseTest"/>
       <class name="SupportAndServices.LeftPannel"/>
       <class name="HomePage.Header"/>
-      <class name="CustomerSuccess.FilterBy"/>
       <class name="CustomerSuccess.SortBy"/>
       <class name="Products.Products"/>
       <class name="HomePage.MidContent"/>
+      <class name="SupportAndServices.Answers"/>
       <class name="HomePage.Footer"/>
     </classes>
   </test> <!-- Test -->

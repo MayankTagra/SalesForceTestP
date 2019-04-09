@@ -6,12 +6,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
+import HomePage.BaseTest;
 
-public class InputSupport extends BaseClass {
+public class InputSupport extends BaseTest {
 	@Test()
 	public void SearchInput() throws InterruptedException
-	{
+	{	
+			
+		test=extent.createTest("Search Input");
 		WebDriver driver=Login();
 		driver.get("https://www.salesforce.com/in/?ir=1");
 		Thread.sleep(3400);
@@ -27,7 +29,8 @@ public class InputSupport extends BaseClass {
 	}
 	@Test()
 	public void VisitTopResults() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Visist Top Results");
 		WebDriver driver=Login();
 		driver.get("https://www.salesforce.com/in/?ir=1");
 		Thread.sleep(3400);
@@ -52,7 +55,7 @@ public class InputSupport extends BaseClass {
 	}
 	@Test()
 	public void NavigateTopResults() throws InterruptedException
-	{
+	{	test=extent.createTest("Navigate Top Results");
 		WebDriver driver=Login();
 		driver.get("https://www.salesforce.com/in/?ir=1");
 		Thread.sleep(3400);

@@ -4,12 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
+import HomePage.BaseTest;
 
-public class Ideas extends BaseClass{
+public class Ideas extends BaseTest{
 	@Test()
 	public void SortDropdown() throws InterruptedException
-	{
+	{		
+		test=extent.createTest("Sort Dropdown");
 		WebDriver driver=Login();
 		driver.get("https://success.salesforce.com/ideaSearch?filter=Delivered+in+Winter+17");
 		Thread.sleep(2000);
@@ -31,7 +32,8 @@ public class Ideas extends BaseClass{
 	}
 	@Test()
 	public void StatusFilterDropdown() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Status Filter Dropdown");
 		WebDriver driver=Login();
 		driver.get("https://success.salesforce.com/ideaSearch?sort=2&filter=Delivered+in+Winter+17");
 		
@@ -55,38 +57,113 @@ public class Ideas extends BaseClass{
 	}
 	@Test()
 	public void SelectAllOptionsOnLeft() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Select All Options On Left");
 		WebDriver driver=Login();
-		driver.get("https://success.salesforce.com/ideaSearch");
-		Thread.sleep(3200);
-		int count=driver.findElement(By.xpath("//ul[@class='ul-reset ul-nav2']"))
-				.findElements(By.tagName("li")).size();
-		System.out.println(" count "+count);
+driver.get("https://success.salesforce.com/ideaSearch");
 		
-		for(int i=1;i<=count;i++)
+		int count=driver.findElement(By.xpath("//ul[@class='ul-reset ul-nav2']")).findElements(By.tagName("li")).size();
+		System.out.println(count);
+		
+		for(int i=0;i<count;i++)
 		{
-			driver.findElement(By.xpath("//ul[@class='ul-reset ul-nav2']//li["+i+"]//a")).click();
-			int innerCount=driver.findElement(By.xpath("//ul[@class='ul-reset ul-nav2']"
-					+ "//li[@class='selected']//ul[@class='ul-reset ul-nav2']"))
-					.findElements(By.tagName("li")).size();
-			System.out.println("InnerCount "+innerCount);
-
-			for(int k=1;k<=innerCount;k++)
+			driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:"+i+"']")).click();
+			Thread.sleep(4500);
+			
+			for(int k=0;k<34;k++)
 			{
-				
-					driver.findElement(By.xpath("//ul[@class='ul-reset ul-nav2'"
-							+ "]//li["+i+"]"
-							+ "//ul[@class='ul-reset ul-nav2']//li["+k+"]")).click();
-						
-						Thread.sleep(5400);
-						
-						//clicked 
+				try
+				{		
+					if(i==0)
+					{
+					driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:0:f121:"+k+"']")).click();
+					Thread.sleep(3400);
+					}
+					if(i==1)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:1:f121:"+k+"']"))
+						.click();
+						Thread.sleep(3400);
+					}
+					if(i==2)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:2:f121:"+k+"']"))
+						.click();
+						Thread.sleep(3400);
+					}
+					if(i==3)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:3:f121:"+k+"']"))
+						.click();
+						Thread.sleep(2300);
+					}
+					if(i==4)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:4:f121:"+k+"']"))
+						.click();
+						Thread.sleep(2300);
+					}
+					if(i==5)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:5:f121:"+k+"']"))
+						.click();
+						Thread.sleep(3400);
+					}
+					if(i==6)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:6:f121:"+k+"']"))
+						.click();
+						Thread.sleep(3400);
+					}
+					if(i==7)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:7:f121:"+k+"']"))
+						.click();
+						Thread.sleep(2300);
+					}
+					if(i==8)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:8:f121:"+k+"']"))
+						.click();
+						Thread.sleep(3400);
+					}
+					if(i==9)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:9:f121:"+k+"']"))
+						.click();
+						Thread.sleep(2300);
+					}
+					if(i==10)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:10:f121:"+k+"']"))
+						.click();
+						Thread.sleep(2300);
+					}
+					if(i==11)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:11:f121:"+k+"']"))
+						.click();
+						Thread.sleep(2300);
+					}
+					if(i==12)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:12:f121:"+k+"']"))
+						.click();
+						Thread.sleep(2300);
+					}
+					if(i==13)
+					{
+						driver.findElement(By.xpath("//a[@id='leftNavsearch:BaseLayout:searchForm:f1:0:f12:13:f121:"+k+"']"))
+						.click();
+						Thread.sleep(3400);
+					}
+				}
+				catch(Exception e)
+				{
 					
-			
+				}
 			}
-			
 		}
 		
 	}
-
 }

@@ -1,6 +1,4 @@
 package HomePage;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Set;
@@ -12,11 +10,12 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 
-public class Footer extends BaseClass {
+public class Footer extends BaseTest {
 	
 	@Test()
 	public void NewToSalesForce() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("New To Sales Force");
 		WebDriver driver=Login();
 		driver.get(url());
 		int count=driver.findElements(By.xpath("//div[@class='col text-left col-sm-3 col-md-3 col-lg-3']//ul[@class='generic-links  ']")).size();
@@ -37,7 +36,8 @@ public class Footer extends BaseClass {
 	
 	@Test()
 	public void AboutSalesForce() throws InterruptedException
-	{	
+	{		
+		test=extent.createTest("About Sales Force");
 		WebDriver driver=Login();
 		driver.get(url());
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -121,7 +121,8 @@ public class Footer extends BaseClass {
 	}
 	@Test()
 	public void PopularLinks() throws InterruptedException
-	{		
+	{			
+		test=extent.createTest("Popular links");
 		WebDriver driver=Login();
 		driver.get(url());
 		JavascriptExecutor js=(JavascriptExecutor)driver;

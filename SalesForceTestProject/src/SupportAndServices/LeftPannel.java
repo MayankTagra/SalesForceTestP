@@ -9,12 +9,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
+import HomePage.BaseTest;
 
-public class LeftPannel extends BaseClass {
+public class LeftPannel extends BaseTest {
 	@Test()
 	public void ContentType() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Content type");
 		WebDriver driver=Login();
 		driver.get("https://www.salesforce.com/in/?ir=1");
 		Thread.sleep(4500);
@@ -90,7 +91,8 @@ public class LeftPannel extends BaseClass {
 	}
 	@Test()
 	public void Experience() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Experience");
 		WebDriver driver=Login();
 		driver.get("https://www.salesforce.com/in/?ir=1");
 		Thread.sleep(4500);
@@ -185,7 +187,8 @@ public class LeftPannel extends BaseClass {
 	}
 	@Test()
 	public void SelectRandom() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Select Random");
 		WebDriver driver=Login();
 		driver.get("https://help.salesforce.com/search?sfContext#q=live%20agent&f:@sflanguage=%5Ben_US%5D&firstQueryMeta=%5Bobject%20Object%5D");
 		Thread.sleep(4500);
@@ -215,7 +218,7 @@ public class LeftPannel extends BaseClass {
 	public void SelectAllLangugaes() throws InterruptedException
 	{			
 		//In this Segment first we select all languages and then we deselect all languages
-		
+		test=extent.createTest("Select All Languages");
 		WebDriver driver=Login();
 		
 	driver.get("https://help.salesforce.com/search?sfContext#q=live%20agent&f:@sflanguage=%5Ben_US%5D&firstQueryMeta=%5Bobject%20Object%5D");
@@ -267,7 +270,8 @@ public class LeftPannel extends BaseClass {
 	}
 	@Test()
 	public void NavTabclass() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Nav Tab Class");
 		WebDriver driver=Login();
 		driver.get("https://help.salesforce.com/home");
 		Thread.sleep(3400);

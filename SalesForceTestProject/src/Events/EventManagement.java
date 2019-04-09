@@ -5,12 +5,13 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
+import HomePage.BaseTest;
 
-public class EventManagement extends BaseClass {
+public class EventManagement extends BaseTest {
 	@Test()
 	public void SelectEventCountry() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("SelectEventCountry");
 		WebDriver driver=Login();
 		driver.get("https://www.salesforce.com/in/events/");
 		JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -30,7 +31,8 @@ public class EventManagement extends BaseClass {
 	}
 	@Test()
 	public void SelectEvent() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Select Event");
 		WebDriver driver=Login();
 	//	driver.get("https://www.salesforce.com/in/events/");
 		driver.get("https://www.salesforce.com/in/events/");
@@ -70,7 +72,8 @@ public class EventManagement extends BaseClass {
 	}
 	@Test()
 	public void ViewMore() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("View More");
 		WebDriver driver=Login();
 	//	driver.get("https://www.salesforce.com/in/events/");
 		driver.get("https://www.salesforce.com/in/events/");

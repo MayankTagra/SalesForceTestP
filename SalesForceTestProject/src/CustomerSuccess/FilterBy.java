@@ -5,14 +5,15 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
+import HomePage.BaseTest;
 
-public class FilterBy extends BaseClass {
+public class FilterBy extends BaseTest {
 
 		
 		@Test()
 		public void Topics() throws InterruptedException
-		{
+		{		
+			test=extent.createTest("Topics");
 			WebDriver driver=Login();
 			driver.get("https://www.salesforce.com/in/customer-success-stories/");
 			JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -31,7 +32,8 @@ public class FilterBy extends BaseClass {
 		}
 		@Test()
 		public void Products() throws InterruptedException
-		{
+		{	
+			test=extent.createTest("Products");
 			WebDriver driver=Login();
 			driver.get("https://www.salesforce.com/in/customer-success-stories/");
 			JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -53,7 +55,7 @@ public class FilterBy extends BaseClass {
 		
 		@Test()
 		public void Industry() throws InterruptedException
-		{	
+		{	test =extent.createTest("Industry");
 			WebDriver driver=Login();
 			driver.get("https://www.salesforce.com/in/customer-success-stories/");
 			JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -69,7 +71,8 @@ public class FilterBy extends BaseClass {
 		}
 		@Test()
 		public void BusinessSize() throws InterruptedException
-		{
+		{	
+			test=extent.createTest("Business Size");
 			WebDriver driver=Login();
 			driver.get("https://www.salesforce.com/in/customer-success-stories/");
 			JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -86,6 +89,7 @@ public class FilterBy extends BaseClass {
 		@Test()
 		public void BusinessType() throws InterruptedException
 		{	
+			test=extent.createTest("Business Type");
 			WebDriver driver=Login();
 			driver.get("https://www.salesforce.com/in/customer-success-stories/");
 			JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -101,7 +105,8 @@ public class FilterBy extends BaseClass {
 		}
 		@Test()
 		public void ClearAll() throws InterruptedException
-		{
+		{	
+			test=extent.createTest("ClearAll");
 			WebDriver driver=Login();
 			driver.get("https://www.salesforce.com/in/customer-success-stories/");
 			JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -149,7 +154,8 @@ public class FilterBy extends BaseClass {
 		}
 		@Test()
 		public void ShowMore() throws InterruptedException
-		{
+		{	
+			test=extent.createTest("ShowMore");
 			WebDriver driver=Login();
 			driver.get("https://www.salesforce.com/in/customer-success-stories/");
 			JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -164,7 +170,8 @@ public class FilterBy extends BaseClass {
 		}
 		@Test()
 		public void SeeTheStory() throws InterruptedException
-		{
+		{	
+			test=extent.createTest("See the Story");
 			WebDriver driver=Login();
 			driver.get("https://www.salesforce.com/in/customer-success-stories/");
 			JavascriptExecutor js=(JavascriptExecutor)driver;

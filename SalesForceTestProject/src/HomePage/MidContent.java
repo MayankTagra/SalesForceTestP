@@ -8,10 +8,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class MidContent extends BaseClass {
+public class MidContent extends BaseTest {
 	@Test()
 	public void SalesForceCustomerSuccess() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Sales Force Customer Success");
 		WebDriver driver=Login();
 		driver.get(url());
 		

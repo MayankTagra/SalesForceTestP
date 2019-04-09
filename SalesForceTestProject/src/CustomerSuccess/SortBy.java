@@ -6,12 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
+import HomePage.BaseTest;
 
-public class SortBy extends BaseClass{
+public class SortBy extends BaseTest{
 	@Test()
 	public void FilterCustomer() throws InterruptedException
-	{
+	{	
+		test=extent.createTest("Sort By");
 		System.setProperty("webdriver.chrome.driver","c:\\chromeDriver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.salesforce.com/in/customer-success-stories/");

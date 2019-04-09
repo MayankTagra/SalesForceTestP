@@ -1,15 +1,15 @@
 package Solutions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import org.testng.annotations.Test;
 
-import HomePage.BaseClass;
+import HomePage.BaseTest;
 
-public class Solutions extends BaseClass {
+public class Solutions extends BaseTest {
 		@Test()
 		public void RadioOptions() throws InterruptedException
-		{
+		{	
+			test=extent.createTest("Radio Options");
 			WebDriver driver=Login();
 			driver.get("https://www.salesforce.com/in/solutions/industries/");
 			driver.findElement(By.xpath("//a[@data-id='banking']")).click();
